@@ -2,7 +2,7 @@ module.exports = {
   coverageDirectory: 'coverage',
   collectCoverage: true,
   collectCoverageFrom: [
-    'src/**/*.{js,jsx,ts,tsx}',
+    '<rootDir>/src/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/**/*mock*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/styles/**/*.{js,jsx,ts,tsx}',
@@ -11,6 +11,13 @@ module.exports = {
     '!<rootDir>/**/stories.{js,jsx,ts,tsx}',
     '!<rootDir>/src/templates/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/node_modules/',
+  ],
+
+  coveragePathIgnorePatterns: [
+    '/node_modules/',
+    '/.next/',
+    '/.out/',
+    '/public/',
   ],
 
   testEnvironment: 'jsdom',
