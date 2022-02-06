@@ -10,6 +10,7 @@ module.exports = {
     '!<rootDir>/src/pages/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/**/stories.{js,jsx,ts,tsx}',
     '!<rootDir>/src/templates/**/*.{js,jsx,ts,tsx}',
+    '!<rootDir>/src/model/**/*',
     '!<rootDir>/node_modules/',
   ],
 
