@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[
+  `<ArticleHeader /> Should render heading, excerpt, cover img and meta 1`
+] = `
+.c2 {
+  line-height: 1.2;
+  color: #000000;
+  font-size: 6.4rem;
+  text-transform: none;
+}
+
+.c0 {
+  padding-bottom: 4.0rem;
+  margin-bottom: 4.0rem;
+  border-bottom: 0.1rem solid #DDDDDD;
+}
+
+.c0 .c1 {
+  margin: 0;
+  margin-bottom: 2.4rem;
+}
+
+.c3 {
+  font-size: 2.4rem;
+  margin: 2.4rem 0;
+}
+
+.c4 {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 2.4rem;
+}
+
+.c5 {
+  font-size: 1.6rem;
+  color: #AAAAAA;
+  font-style: italic;
+}
+
+.c5 .categories span::after {
+  content: ', ';
+}
+
+.c5 .categories span:last-child::after {
+  content: '';
+}
+
+.c5 a {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c5 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+@media (max-width:768px) {
+  .c2 {
+    font-size: 4.0rem;
+  }
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <h2
+      class="c1 c2"
+    >
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    </h2>
+    <p
+      class="c3"
+    >
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    </p>
+    <img
+      alt="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      class="c4"
+      src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614696630/Frozen_sunset_on_the_lake_by_Manuel_Arslanyan_9f9cd8ea10.jpg"
+    />
+    <div
+      class="c5"
+    >
+      <p>
+        <span>
+          Por 
+        </span>
+        <a
+          href="/author/luan-mateus"
+        >
+          Luan Mateus
+        </a>
+        <span
+          class="separator"
+        >
+           | 
+        </span>
+        <time
+          datetime="2021-03-02T15:16:09.246+00:00"
+        >
+          2 de mar. de 2021
+        </time>
+        <span
+          class="separator"
+        >
+           | 
+        </span>
+        <span
+          class="categories"
+        >
+          <span>
+            <a
+              href="/category/tech"
+            >
+              Tech
+            </a>
+          </span>
+          <span>
+            <a
+              href="/category/javascript"
+            >
+              JS
+            </a>
+          </span>
+        </span>
+      </p>
+    </div>
+  </section>
+</div>
+`;
