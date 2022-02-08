@@ -28,7 +28,7 @@ export const Wrapper = styled.section`
     &:hover img {
       filter: brightness(80%);
     }
-  `}
+  `};
 `;
 
 export const Cover = styled.img`
