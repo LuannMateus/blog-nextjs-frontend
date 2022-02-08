@@ -5,10 +5,23 @@ import { Menu } from '.';
 import props from './mock';
 
 describe('<Menu />', () => {
+  it('Should render OpenMenu button', () => {
+    renderTheme(<Menu {...props} />);
+
+    expect(screen.getByLabelText('Open menu')).toBeInTheDocument();
+  });
+
   it('Should render Menu with links and logoLink', () => {
     renderTheme(<Menu {...props} />);
 
-    expect(screen.getByRole('link', { name: 'LINK 1' })).toBeInTheDocument();
+    const openMenuButton = screen.getByLabelText('Open menu');
+
+    fireEvent.click(openMenuButton);
+
+    expect(screen.getByRole('navigation')).toBeInTheDocument();
+    expect(
+      screen.getByRole('navigation').querySelectorAll('a:not([href="/"])'),
+    ).toHaveLength(props.links.length);
     expect(screen.getByRole('img', { name: props.text })).toBeInTheDocument();
   });
 
@@ -21,15 +34,15 @@ describe('<Menu />', () => {
   it('Should render Menu with open and close events', () => {
     renderTheme(<Menu {...props} />);
 
-    expect(screen.getByRole('navigation')).toHaveStyleRule('left', '-26rem');
+    expect(screen.queryByRole('navigation')).not.toBeInTheDocument();
 
     const openMenuButton = screen.getByLabelText('Open menu');
     fireEvent.click(openMenuButton);
-    expect(screen.getByRole('navigation')).toHaveStyle('left: 0rem');
+    expect(screen.queryByRole('navigation')).toBeInTheDocument();
 
     const closeMenuButton = screen.getByLabelText('Close menu');
     fireEvent.click(closeMenuButton);
-    expect(screen.getByRole('navigation')).toHaveStyle('left: -26rem');
+    expect(screen.queryByRole('navigation')).not.toBeInTheDocument();
   });
 
   it('Should match snapshot', () => {

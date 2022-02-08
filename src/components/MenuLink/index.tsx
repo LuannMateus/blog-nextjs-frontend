@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ReactNode } from 'react';
 
 export type MenuLinkProps = {
+  id: string;
   children: ReactNode;
   link: string;
   newTab?: boolean;

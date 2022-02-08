@@ -1,41 +1,70 @@
 import styled, { css } from 'styled-components';
 import { Container as LogoLinkStyles } from '../LogoLink/styles';
 
-export const Wrapper = styled.nav`
+export const Wrapper = styled.div`
   ${({ theme }) => css`
     width: 27rem;
     height: 100vh;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #000;
+    background: ${theme.colors.primary};
     border-radius: 4px;
 
-    padding-top: 1.4rem;
+    padding: ${theme.spacings.xsmall} calc(${theme.spacings.xsmall} - 0.6rem);
 
     position: fixed;
     left: -26rem;
 
     transition: all 300ms ease-in-out;
 
-    z-index: 1000;
+    z-index: 1001;
 
-    .menuIcon {
-      position: relative;
-      left: 1.5rem;
+    ${LogoLinkStyles} {
+      margin-top: ${theme.spacings.xhuge};
 
-      background: #000;
-      padding: 0;
+      img {
+        border: 0.5rem solid ${theme.colors.secondary};
+      }
     }
+
+    &.active {
+      left: 0rem;
+
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+  `}
+`;
+
+export const NavWrapper = styled.nav`
+  ${() => css`
+    width: 100%;
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  `}
+`;
+
+export const OpenCloseWrapper = styled.div`
+  ${({ theme }) => css`
+    position: relative;
+
+    display: flex;
+    justify-content: flex-end;
+
+    background-color: ${theme.colors.primary};
+
+    border-radius: 4px;
+
+    left: 2rem;
 
     svg {
       width: 3rem;
       color: ${theme.colors.secondary};
 
-      align-self: flex-end;
-
-      padding-right: 1.6rem;
+      padding-right: 3.5rem;
+      padding-top: 1rem;
 
       cursor: pointer;
       transition: filter 300ms ease-in-out;
@@ -45,12 +74,8 @@ export const Wrapper = styled.nav`
       filter: brightness(50%);
     }
 
-    ${LogoLinkStyles} {
-      margin-top: ${theme.spacings.xhuge};
-    }
-
-    &.active {
-      left: 0rem;
+    .menuIcon {
+      padding: 0;
     }
   `}
 `;
@@ -58,7 +83,6 @@ export const Wrapper = styled.nav`
 export const MenuLinkContainer = styled.section`
   ${() => css`
     width: 90%;
-
-    margin-top: 4rem;
+    margin: 4rem 0;
   `}
 `;

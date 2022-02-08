@@ -18,31 +18,44 @@ export const Menu = ({
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <Styled.Wrapper className={isMenuOpen ? 'active' : ''}>
-      {isMenuOpen ? (
-        <Close onClick={() => setIsMenuOpen(false)} aria-label="Close menu" />
-      ) : (
-        <MenuIcon
-          className="menuIcon"
-          onClick={() => setIsMenuOpen(true)}
-          aria-label="Open menu"
-        />
-      )}
+    <>
+      <Styled.Wrapper className={isMenuOpen ? 'active' : ''}>
+        <Styled.OpenCloseWrapper>
+          {isMenuOpen ? (
+            <Close
+              className="closeIcon"
+              onClick={() => setIsMenuOpen(false)}
+              aria-label="Close menu"
+              title="Close menu"
+            />
+          ) : (
+            <MenuIcon
+              className="menuIcon"
+              onClick={() => setIsMenuOpen(true)}
+              aria-label="Open menu"
+              title="Open menu"
+            />
+          )}
+        </Styled.OpenCloseWrapper>
+        <Styled.NavWrapper aria-hidden={!isMenuOpen}>
+          <LogoLink link={link} text={text} srcImg={srcImg} newTab={newTab} />
 
-      <LogoLink link={link} text={text} srcImg={srcImg} newTab={newTab} />
-      <Styled.MenuLinkContainer>
-        {links.map((link, index) => {
-          return (
-            <MenuLink
-              key={`menu-link-${index}`}
-              link={link.link}
-              newTab={link.newTab}
-            >
-              {link.children}
-            </MenuLink>
-          );
-        })}
-      </Styled.MenuLinkContainer>
-    </Styled.Wrapper>
+          <Styled.MenuLinkContainer>
+            {links.map((link) => {
+              return (
+                <MenuLink
+                  id={link.id}
+                  key={`menu-link-${link.id}`}
+                  link={link.link}
+                  newTab={link.newTab}
+                >
+                  {link.children}
+                </MenuLink>
+              );
+            })}
+          </Styled.MenuLinkContainer>
+        </Styled.NavWrapper>
+      </Styled.Wrapper>
+    </>
   );
 };
