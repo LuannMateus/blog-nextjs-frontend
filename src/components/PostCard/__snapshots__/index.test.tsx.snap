@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostCard /> Should match snapshot 1`] = `
+.c3 {
+  line-height: 1.2;
+  color: #000000;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c0 .c2 {
+  margin: 0;
+  margin-top: calc(1.6rem - 0.6rem);
+  margin-bottom: 1.6rem;
+}
+
+.c0 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0 img {
+  -webkit-transition: filter 300ms ease-in-out;
+  transition: filter 300ms ease-in-out;
+  width: 100%;
+  max-width: 100%;
+}
+
+.c0:hover a {
+  color: #dc143c;
+}
+
+.c0:hover img {
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+}
+
+.c1 {
+  max-width: 100%;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <a
+      href="/post/usando-effect-hook-hook-de-efeito"
+    >
+      <img
+        alt="Usando Effect Hook (Hook de Efeito)"
+        class="c1"
+        src="https://res.cloudinary.com/project-cdn/image/upload/v1643992684/use_Effect_hook_62405844a5.png"
+      />
+    </a>
+    <h2
+      class="c2 c3"
+    >
+      <a
+        href="/post/usando-effect-hook-hook-de-efeito"
+      >
+        Usando Effect Hook (Hook de Efeito)
+      </a>
+    </h2>
+    <p
+      class=""
+    >
+      O Effect Hook (Hook de Efeito) te permite executar efeitos colaterais em componentes funcionais.
+    </p>
+  </section>
+</div>
+`;

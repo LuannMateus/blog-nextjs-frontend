@@ -6,6 +6,7 @@ import * as Styled from './styles';
 export type PostProps = ArticleHeaderProps & HtmlContentProps;
 
 export const Post = ({
+  id,
   title,
   author,
   cover,
@@ -18,6 +19,7 @@ export const Post = ({
     <Styled.Wrapper>
       <PostContainer size="max">
         <ArticleHeader
+          id={id}
           title={title}
           author={author}
           cover={cover}

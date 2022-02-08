@@ -6,7 +6,11 @@ export type ArticleHeaderProps = {
   id: string;
   title: string;
   excerpt: string;
-  cover: string;
+  cover: {
+    id: string;
+    alternativeText?: string;
+    url: string;
+  };
 } & ArticleMetaProps;
 
 export const ArticleHeader = ({
@@ -23,7 +27,7 @@ export const ArticleHeader = ({
         {title}
       </Heading>
       <Styled.Excerpt>{excerpt}</Styled.Excerpt>
-      <Styled.Cover src={cover} alt={title} />
+      <Styled.Cover src={cover.url} alt={title} />
       <ArticleMeta
         createdAt={createdAt}
         author={author}
