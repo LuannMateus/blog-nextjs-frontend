@@ -1,14 +1,12 @@
 import { Meta, Story } from '@storybook/react/types-6-0';
 import { LogoLink, LogoLinkProps } from '.';
 
+import mock from './mock';
+
 export default {
   title: 'LogoLink',
   component: LogoLink,
-  args: {
-    text: 'LogoLink',
-    srcImg: '/assets/images/logo.jpg',
-    link: 'https://google.com.br',
-  },
+  args: mock,
   argTypes: {
     text: { type: 'string' },
     srcImg: { type: 'string' },

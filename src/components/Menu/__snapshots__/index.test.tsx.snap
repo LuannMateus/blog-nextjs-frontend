@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> Should match snapshot 1`] = `
+.c2 {
+  line-height: 1.2;
+  color: #000000;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c4 > img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.c6 {
+  display: block;
+  color: #FFFFFF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-bottom: 1.6rem;
+  font-size: 1.8rem;
+  border-right: 0.5rem solid #000000;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c6:hover {
+  border-right: 0.5rem solid #dc143c;
+  color: #dc143c;
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  width: 27rem;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #000;
+  border-radius: 4px;
+  padding-top: 1.4rem;
+  position: fixed;
+  left: -26rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  z-index: 1000;
+}
+
+.c0 .menuIcon {
+  position: relative;
+  left: 1.5rem;
+  background: #000;
+  padding: 0;
+}
+
+.c0 svg {
+  width: 3rem;
+  color: #dc143c;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  padding-right: 1.6rem;
+  cursor: pointer;
+  -webkit-transition: filter 300ms ease-in-out;
+  transition: filter 300ms ease-in-out;
+}
+
+.c0 svg:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c0 .c3 {
+  margin-top: 6.4rem;
+}
+
+.c0.active {
+  left: 0rem;
+}
+
+.c5 {
+  width: 90%;
+  margin-top: 4rem;
+}
+
+<div>
+  <nav
+    class="c0"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="Open menu"
+      class="c1 menuIcon"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0V0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+    <h1
+      class="c2"
+    >
+      <a
+        class="c3 c4"
+        href="https://google.com.br"
+        target="_self"
+      >
+        <img
+          alt="LogoLink"
+          src="/assets/images/logo.jpg"
+        />
+      </a>
+    </h1>
+    <section
+      class="c5"
+    >
+      <a
+        class="c6"
+        href="https://www.google.com/"
+        target="_self"
+      >
+        LINK 1
+      </a>
+      <a
+        class="c6"
+        href="https://www.google.com/"
+        target="_self"
+      >
+        LINK 2
+      </a>
+      <a
+        class="c6"
+        href="https://www.google.com/"
+        target="_self"
+      >
+        LINK 3
+      </a>
+      <a
+        class="c6"
+        href="https://www.google.com/"
+        target="_self"
+      >
+        LINK 4
+      </a>
+    </section>
+  </nav>
+</div>
+`;
