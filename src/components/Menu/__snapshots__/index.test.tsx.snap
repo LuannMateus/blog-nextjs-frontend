@@ -174,8 +174,8 @@ exports[`<Menu /> Should match snapshot 1`] = `
           target="_self"
         >
           <img
-            alt="LogoLink"
-            src="/assets/images/logo.jpg"
+            alt="blog-name"
+            src="logo-image"
           />
         </a>
       </h1>

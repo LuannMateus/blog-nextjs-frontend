@@ -1,20 +1,16 @@
-import { LogoLink, LogoLinkProps } from '../LogoLink';
+import { LogoLink } from '../LogoLink';
 import { MenuLink, MenuLinkProps } from '../MenuLink';
 import { Close, Menu as MenuIcon } from '@styled-icons/material-outlined';
 import * as Styled from './styles';
 import { useState } from 'react';
 
 export type MenuProps = {
+  blogName?: string;
   links?: MenuLinkProps[];
-} & LogoLinkProps;
+  logo: string;
+};
 
-export const Menu = ({
-  links = [],
-  link,
-  text,
-  srcImg,
-  newTab = false,
-}: MenuProps) => {
+export const Menu = ({ blogName, links = [], logo }: MenuProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -38,7 +34,7 @@ export const Menu = ({
           )}
         </Styled.OpenCloseWrapper>
         <Styled.NavWrapper aria-hidden={!isMenuOpen}>
-          <LogoLink link={link} text={text} srcImg={srcImg} newTab={newTab} />
+          <LogoLink link="/" text={blogName} srcImg={logo} />
 
           <Styled.MenuLinkContainer>
             {links.map((link) => {

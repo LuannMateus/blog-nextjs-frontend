@@ -1,8 +1,7 @@
 import { MenuProps } from '.';
 
-import logoLinkMock from '../LogoLink/mock';
-
 export default {
+  blogName: 'blog-name',
   links: [
     {
       id: 'link-1',
@@ -29,5 +28,5 @@ export default {
       link: 'https://www.google.com/',
     },
   ],
-  ...logoLinkMock,
+  logo: 'logo-image',
 } as MenuProps;

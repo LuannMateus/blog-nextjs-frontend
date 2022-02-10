@@ -22,7 +22,9 @@ describe('<Menu />', () => {
     expect(
       screen.getByRole('navigation').querySelectorAll('a:not([href="/"])'),
     ).toHaveLength(props.links.length);
-    expect(screen.getByRole('img', { name: props.text })).toBeInTheDocument();
+    expect(
+      screen.getByRole('img', { name: props.blogName }),
+    ).toBeInTheDocument();
   });
 
   it('Should render Menu with no links', () => {
