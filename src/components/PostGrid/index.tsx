@@ -1,8 +1,9 @@
-import { PostCard, PostCardProps } from '../PostCard';
+import { PostStrapi } from '../../model/PostStrapi';
+import { PostCard } from '../PostCard';
 import * as Styled from './styles';
 
 export type PostGridProps = {
-  posts?: PostCardProps[];
+  posts?: PostStrapi[];
 };
 
 export const PostGrid = ({ posts = [] }: PostGridProps) => {
@@ -12,7 +13,7 @@ export const PostGrid = ({ posts = [] }: PostGridProps) => {
         <Styled.NotFound>Nenhum post encontrado aqui =(</Styled.NotFound>
       )}
 
-      {posts.map((post: PostCardProps) => {
+      {posts.map((post: PostStrapi) => {
         return <PostCard key={post.id} {...post} />;
       })}
     </Styled.Wrapper>

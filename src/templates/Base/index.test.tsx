@@ -16,7 +16,7 @@ describe('<BaseTemplate />', () => {
       }),
     ).toBeInTheDocument();
     expect(screen.getByLabelText('Open menu')).toBeInTheDocument();
-    expect(screen.getByText(props.settings.text)).toBeInTheDocument();
+    expect(screen.getByText(props.settings.footerHtml)).toBeInTheDocument();
     expect(screen.getByLabelText('Go to top')).toBeInTheDocument();
   });
 

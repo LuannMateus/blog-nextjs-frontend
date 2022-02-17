@@ -19,7 +19,7 @@ export default {
         newTab: true,
       },
     ],
-    text: 'A footer paragraph',
+    footerHtml: 'A footer paragraph',
   },
   children: 'Olá mundo',
 } as BaseTemplateProps;

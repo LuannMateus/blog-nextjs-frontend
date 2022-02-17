@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Author } from '../../model/Author';
 import { StrapiImage } from '../../model/StrapiImage';
 import { Heading } from '../Heading';
 import * as Styled from './styles';
@@ -7,7 +8,7 @@ export type PostCardProps = {
   id: string;
   slug: string;
   title: string;
-  author: string;
+  author: Author;
   cover: StrapiImage;
   excerpt: string;
 };

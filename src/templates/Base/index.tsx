@@ -30,7 +30,7 @@ export const Base = ({ settings, children }: BaseTemplateProps) => {
       <Styled.ContentContainer>{children}</Styled.ContentContainer>
 
       <Styled.FooterContainer>
-        <Footer footerHtml={settings.text} />
+        <Footer footerHtml={settings.footerHtml} />
       </Styled.FooterContainer>
 
       <GoTop />
