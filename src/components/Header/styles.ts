@@ -16,7 +16,13 @@ export const Wrapper = styled.header`
     margin: 0 auto;
 
     ${HeadingStyles} {
-      margin: 0 0 calc(${theme.spacings.small} - 1rem);
+      margin-right: calc(${theme.spacings.small} - 1rem);
+    }
+
+    @media ${theme.media.lteMedium} {
+      margin: 0;
+
+      flex-direction: column;
     }
   `}
 `;
@@ -25,8 +31,11 @@ export const Content = styled.section`
   ${({ theme }) => css`
     display: flex;
     flex-flow: column wrap;
-    margin-left: ${theme.spacings.large};
+    margin-left: ${theme.spacings.medium};
 
-    max-width: 48rem;
+    @media ${theme.media.lteMedium} {
+      margin-top: ${theme.spacings.small};
+      margin-left: ${theme.spacings.small};
+    }
   `}
 `;

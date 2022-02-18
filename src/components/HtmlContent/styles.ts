@@ -7,7 +7,9 @@ export const Container = styled.div`
     line-height: 1.5;
 
     p {
+      width: 100%;
       margin: ${theme.spacings.medium} 0;
+      word-wrap: break-word;
     }
 
     a,
@@ -72,6 +74,7 @@ export const Container = styled.div`
 
     hr {
       border: none;
+      border: 1px solid red;
       border-bottom: 0.1rem solid ${theme.colors.mediumGray};
     }
 
@@ -110,7 +113,7 @@ export const Container = styled.div`
       font-size: 2rem;
 
       pre {
-        width: 85%;
+        width: 82%;
       }
 
       .image-style-side {

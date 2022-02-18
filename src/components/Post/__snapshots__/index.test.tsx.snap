@@ -66,7 +66,9 @@ exports[
 }
 
 .c8 p {
+  width: 100%;
   margin: 2.4rem 0;
+  word-wrap: break-word;
 }
 
 .c8 a,
@@ -134,6 +136,7 @@ exports[
 
 .c8 hr {
   border: none;
+  border: 1px solid red;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
@@ -195,7 +198,7 @@ exports[
   }
 
   .c8 pre {
-    width: 85%;
+    width: 82%;
   }
 
   .c8 .image-style-side {
@@ -207,13 +210,13 @@ exports[
 
 @media (max-width:768px) {
   .c0 {
-    padding: 0 calc(3.2rem / 2);
+    padding: 0;
   }
 }
 
 @media (max-width:768px) {
   .c7 {
-    padding: 0 calc(3.2rem / 2);
+    padding: 0;
   }
 }
 
@@ -240,6 +243,7 @@ exports[
         <img
           alt="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
           class="c5"
+          src="https://res.cloudinary.com/project-cdn/image/upload/v1643992684/use_Effect_hook_62405844a5.png"
         />
         <div
           class="c6"

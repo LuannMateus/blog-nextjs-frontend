@@ -7,15 +7,19 @@ export const Wrapper = styled.div`
     span {
       margin: 0 0 0 0.5rem;
     }
+
     span::before {
       content: ' ';
     }
+
     span::after {
       content: ', ';
     }
+
     span:last-child::after {
       content: '';
     }
+
     a {
       color: ${theme.colors.secondary};
       text-decoration: none;

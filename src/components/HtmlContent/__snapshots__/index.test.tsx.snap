@@ -8,7 +8,9 @@ exports[`<TextCom  ponent/> Should match snapshot 1`] = `
 }
 
 .c0 p {
+  width: 100%;
   margin: 2.4rem 0;
+  word-wrap: break-word;
 }
 
 .c0 a,
@@ -76,6 +78,7 @@ exports[`<TextCom  ponent/> Should match snapshot 1`] = `
 
 .c0 hr {
   border: none;
+  border: 1px solid red;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
@@ -117,7 +120,7 @@ exports[`<TextCom  ponent/> Should match snapshot 1`] = `
   }
 
   .c0 pre {
-    width: 85%;
+    width: 82%;
   }
 
   .c0 .image-style-side {

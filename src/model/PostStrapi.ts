@@ -14,4 +14,5 @@ export type PostStrapi = {
   categories: Category[];
   slug: string;
   allowComments: boolean;
+  createdAt: string;
 };

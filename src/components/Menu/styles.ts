@@ -4,11 +4,10 @@ import { Container as LogoLinkStyles } from '../LogoLink/styles';
 export const Wrapper = styled.div`
   ${({ theme }) => css`
     width: 27rem;
-    height: 100vh;
+    height: 100%;
 
     background: ${theme.colors.primary};
-    border-radius: 4px;
-
+    border-top-right-radius: 4px;
     padding: ${theme.spacings.xsmall} calc(${theme.spacings.xsmall} - 0.6rem);
 
     position: fixed;
@@ -31,6 +30,10 @@ export const Wrapper = styled.div`
 
       overflow-y: auto;
       overflow-x: hidden;
+    }
+
+    @media ${theme.media.lteMedium} {
+      width: 25.5rem;
     }
   `}
 `;

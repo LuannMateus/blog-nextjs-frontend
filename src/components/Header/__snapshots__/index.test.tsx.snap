@@ -57,7 +57,7 @@ exports[`<Header /> Should match with snapshot 1`] = `
 }
 
 .c0 .c1 {
-  margin: 0 0 calc(1.6rem - 1rem);
+  margin-right: calc(1.6rem - 1rem);
 }
 
 .c4 {
@@ -68,8 +68,23 @@ exports[`<Header /> Should match with snapshot 1`] = `
   -webkit-flex-flow: column wrap;
   -ms-flex-flow: column wrap;
   flex-flow: column wrap;
-  margin-left: 3.2rem;
-  max-width: 48rem;
+  margin-left: 2.4rem;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    margin: 0;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:768px) {
+  .c4 {
+    margin-top: 1.6rem;
+    margin-left: 1.6rem;
+  }
 }
 
 <div>

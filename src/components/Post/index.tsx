@@ -1,5 +1,6 @@
 import { Author } from '../../model/Author';
 import { Category } from '../../model/Category';
+import { PostTags } from '../../model/PostTags';
 import { StrapiImage } from '../../model/StrapiImage';
 import { ArticleHeader } from '../ArticleHeader';
 import { HtmlContent } from '../HtmlContent';
@@ -12,9 +13,11 @@ export type PostProps = {
   author: Author;
   excerpt: string;
   cover: StrapiImage;
+  tags: PostTags[];
   categories: Category[];
   createdAt: string;
-  html: string;
+  content: string;
+  slug: string;
 };
 
 export const Post = ({
@@ -25,7 +28,7 @@ export const Post = ({
   excerpt,
   categories,
   createdAt,
-  html,
+  content,
 }: PostProps) => {
   return (
     <Styled.Wrapper>
@@ -41,7 +44,7 @@ export const Post = ({
         />
       </PostContainer>
       <PostContainer size="content">
-        <HtmlContent html={html} />
+        <HtmlContent html={content} />
       </PostContainer>
     </Styled.Wrapper>
   );

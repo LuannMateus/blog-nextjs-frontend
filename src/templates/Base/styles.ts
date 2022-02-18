@@ -1,8 +1,7 @@
 import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
-  width: 100%;
-  height: 100vh;
+  padding-left: 4px;
 `;
 
 export const HeaderContainer = styled.div`
@@ -18,12 +17,18 @@ export const ContentContainer = styled.div`
     margin: 0 auto;
 
     margin-bottom: ${theme.spacings.xhuge};
+
+    @media ${theme.media.lteMedium} {
+      width: 100%;
+    }
   `}
 `;
 
 export const FooterContainer = styled.div`
-  ${({ theme }) => css`
+  ${() => css`
+    width: 100%;
+
     margin: 0 auto;
-    padding: ${theme.spacings.large};
+    padding: 0;
   `}
 `;

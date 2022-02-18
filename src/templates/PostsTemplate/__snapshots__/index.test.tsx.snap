@@ -79,7 +79,9 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
 }
 
 .c21 p {
+  width: 100%;
   margin: 2.4rem 0;
+  word-wrap: break-word;
 }
 
 .c21 a,
@@ -147,6 +149,7 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
 
 .c21 hr {
   border: none;
+  border: 1px solid red;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
@@ -253,7 +256,7 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
 }
 
 .c12 .c5 {
-  margin: 0 0 calc(1.6rem - 1rem);
+  margin-right: calc(1.6rem - 1rem);
 }
 
 .c13 {
@@ -264,8 +267,7 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   -webkit-flex-flow: column wrap;
   -ms-flex-flow: column wrap;
   flex-flow: column wrap;
-  margin-left: 3.2rem;
-  max-width: 48rem;
+  margin-left: 2.4rem;
 }
 
 .c10 {
@@ -287,9 +289,9 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
 
 .c1 {
   width: 27rem;
-  height: 100vh;
+  height: 100%;
   background: #000000;
-  border-radius: 4px;
+  border-top-right-radius: 4px;
   padding: 0.8rem calc(0.8rem - 0.6rem);
   position: fixed;
   left: -26rem;
@@ -368,8 +370,7 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
 }
 
 .c0 {
-  width: 100%;
-  height: 100vh;
+  padding-left: 4px;
 }
 
 .c11 {
@@ -384,8 +385,9 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
 }
 
 .c19 {
+  width: 100%;
   margin: 0 auto;
-  padding: 3.2rem;
+  padding: 0;
 }
 
 @media (max-width:360px) {
@@ -400,13 +402,41 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   }
 
   .c21 pre {
-    width: 85%;
+    width: 82%;
   }
 
   .c21 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c12 {
+    margin: 0;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:768px) {
+  .c13 {
+    margin-top: 1.6rem;
+    margin-left: 1.6rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c1 {
+    width: 25.5rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c15 {
+    width: 100%;
   }
 }
 
@@ -632,7 +662,9 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
 }
 
 .c20 p {
+  width: 100%;
   margin: 2.4rem 0;
+  word-wrap: break-word;
 }
 
 .c20 a,
@@ -700,6 +732,7 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
 
 .c20 hr {
   border: none;
+  border: 1px solid red;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
@@ -806,7 +839,7 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
 }
 
 .c12 .c5 {
-  margin: 0 0 calc(1.6rem - 1rem);
+  margin-right: calc(1.6rem - 1rem);
 }
 
 .c13 {
@@ -817,8 +850,7 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   -webkit-flex-flow: column wrap;
   -ms-flex-flow: column wrap;
   flex-flow: column wrap;
-  margin-left: 3.2rem;
-  max-width: 48rem;
+  margin-left: 2.4rem;
 }
 
 .c10 {
@@ -840,9 +872,9 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
 
 .c1 {
   width: 27rem;
-  height: 100vh;
+  height: 100%;
   background: #000000;
-  border-radius: 4px;
+  border-top-right-radius: 4px;
   padding: 0.8rem calc(0.8rem - 0.6rem);
   position: fixed;
   left: -26rem;
@@ -921,8 +953,7 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
 }
 
 .c0 {
-  width: 100%;
-  height: 100vh;
+  padding-left: 4px;
 }
 
 .c11 {
@@ -937,8 +968,9 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
 }
 
 .c18 {
+  width: 100%;
   margin: 0 auto;
-  padding: 3.2rem;
+  padding: 0;
 }
 
 @media (max-width:360px) {
@@ -953,13 +985,41 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   }
 
   .c20 pre {
-    width: 85%;
+    width: 82%;
   }
 
   .c20 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c12 {
+    margin: 0;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:768px) {
+  .c13 {
+    margin-top: 1.6rem;
+    margin-left: 1.6rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c1 {
+    width: 25.5rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c15 {
+    width: 100%;
   }
 }
 

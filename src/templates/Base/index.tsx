@@ -32,7 +32,6 @@ export const Base = ({ settings, children }: BaseTemplateProps) => {
       <Styled.FooterContainer>
         <Footer footerHtml={settings.footerHtml} />
       </Styled.FooterContainer>
-
       <GoTop />
     </Styled.Wrapper>
   );

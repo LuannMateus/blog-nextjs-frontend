@@ -1,33 +1,64 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<BaseTemplate /> Should render base elements 1`] = `
-.c17 {
-  width: 100%;
-  text-align: center;
+exports[`<PostTemplate /> should render 1`] = `
+.c6 {
+  line-height: 1.2;
+  color: #000000;
+  font-size: 2.4rem;
+  text-transform: uppercase;
 }
 
-.c17 a {
-  color: inherit;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1.6rem;
+.c14 {
+  line-height: 1.2;
+  color: #000000;
+  font-size: 2.4rem;
+  text-transform: none;
 }
 
 .c18 {
-  width: 100%;
-  font-size: calc(1.6rem + 0.2rem);
-  line-height: 1.5;
+  line-height: 1.2;
+  color: #000000;
+  font-size: 6.4rem;
+  text-transform: none;
 }
 
-.c18 p {
-  width: 100%;
+.c17 {
+  padding-bottom: 4.0rem;
+  margin-bottom: 4.0rem;
+  border-bottom: 0.1rem solid #DDDDDD;
+}
+
+.c17 .c5 {
+  margin: 0;
+  margin-bottom: 2.4rem;
+}
+
+.c19 {
+  font-size: 2.4rem;
   margin: 2.4rem 0;
-  word-wrap: break-word;
 }
 
-.c18 a,
-.c18 a:visited,
-.c18 a:link {
+.c20 {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 2.4rem;
+}
+
+.c21 {
+  font-size: 1.6rem;
+  color: #AAAAAA;
+  font-style: italic;
+}
+
+.c21 .categories span::after {
+  content: ', ';
+}
+
+.c21 .categories span:last-child::after {
+  content: '';
+}
+
+.c21 a {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -35,12 +66,39 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c18 a:hover {
+.c21 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c18 code {
+.c23 {
+  width: 100%;
+  font-size: calc(1.6rem + 0.2rem);
+  line-height: 1.5;
+}
+
+.c23 p {
+  width: 100%;
+  margin: 2.4rem 0;
+  word-wrap: break-word;
+}
+
+.c23 a,
+.c23 a:visited,
+.c23 a:link {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c23 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c23 code {
   font-family: monospace;
   color: #dc143c;
   font-size: 1.6rem;
@@ -49,7 +107,7 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
   margin: 0.2rem;
 }
 
-.c18 pre {
+.c23 pre {
   background: #000000;
   padding: 2.4rem;
   font-family: monospace;
@@ -59,22 +117,22 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
   font-size: 1.6rem;
 }
 
-.c18 pre code {
+.c23 pre code {
   color: inherit;
   background: inherit;
 }
 
-.c18 img {
+.c23 img {
   max-width: 100%;
 }
 
-.c18 .image {
+.c23 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c18 .image figcaption {
+.c23 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem 0;
   text-align: center;
@@ -82,41 +140,41 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
   margin: 2.4rem 0;
 }
 
-.c18 .image-style-side {
+.c23 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem;
 }
 
-.c18 hr {
+.c23 hr {
   border: none;
   border: 1px solid red;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c18 ul,
-.c18 ol {
+.c23 ul,
+.c23 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c18 .table {
+.c23 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c18 table {
+.c23 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.c18 table td,
-.c18 table th {
+.c23 table td,
+.c23 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c18 blockquote {
+.c23 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -126,13 +184,72 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
   margin: 2.4rem;
 }
 
+.c16 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 96rem;
+}
+
+.c22 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 80rem;
+}
+
+.c25 {
+  margin: 2.4rem 0;
+}
+
+.c25 span {
+  margin: 0 0 0 0.5rem;
+}
+
+.c25 span::before {
+  content: ' ';
+}
+
+.c25 span::after {
+  content: ', ';
+}
+
+.c25 span:last-child::after {
+  content: '';
+}
+
+.c25 a {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c25 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c27 {
+  width: 100%;
+  text-align: center;
+}
+
+.c27 a {
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
 .c3 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
 }
 
-.c19 {
+.c28 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -153,20 +270,6 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
   bottom: 2rem;
   right: 2rem;
   z-index: 6;
-}
-
-.c6 {
-  line-height: 1.2;
-  color: #000000;
-  font-size: 2.4rem;
-  text-transform: uppercase;
-}
-
-.c14 {
-  line-height: 1.2;
-  color: #000000;
-  font-size: 2.4rem;
-  text-transform: none;
 }
 
 .c8 {
@@ -339,25 +442,47 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
   margin-bottom: 6.4rem;
 }
 
-.c16 {
+.c26 {
   width: 100%;
   margin: 0 auto;
   padding: 0;
 }
 
+.c24 {
+  padding: 0 3.2rem;
+}
+
 @media (max-width:768px) {
   .c18 {
+    font-size: 4.0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c23 {
     font-size: 2rem;
   }
 
-  .c18 pre {
+  .c23 pre {
     width: 82%;
   }
 
-  .c18 .image-style-side {
+  .c23 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c16 {
+    padding: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c22 {
+    padding: 0;
   }
 }
 
@@ -386,6 +511,12 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
 @media (max-width:768px) {
   .c15 {
     width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .c24 {
+    padding-left: 2px;
   }
 }
 
@@ -488,24 +619,223 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
     <div
       class="c15"
     >
-      Olá mundo
-    </div>
-    <div
-      class="c16"
-    >
-      <footer
-        class="c17"
+      <section
+        class=""
+      >
+        <section
+          class="c16"
+        >
+          <section
+            class="c17"
+          >
+            <h2
+              class="c5 c18"
+            >
+              Usando Effect Hook (Hook de Efeito)
+            </h2>
+            <p
+              class="c19"
+            >
+              O Effect Hook (Hook de Efeito) te permite executar efeitos colaterais em componentes funcionais.
+            </p>
+            <img
+              alt="Usando Effect Hook (Hook de Efeito)"
+              class="c20"
+              src="https://res.cloudinary.com/project-cdn/image/upload/v1643992684/use_Effect_hook_62405844a5.png"
+            />
+            <div
+              class="c21"
+            >
+              <p>
+                <span>
+                  Por 
+                </span>
+                <a
+                  href="/author/luan-mateus"
+                >
+                  LuanMateus
+                </a>
+                <span
+                  class="separator"
+                >
+                   | 
+                </span>
+                <time>
+                  Invalid Date
+                </time>
+                <span
+                  class="separator"
+                >
+                   | 
+                </span>
+                <span
+                  class="categories"
+                >
+                  <span>
+                    <a
+                      href="/category/react"
+                    >
+                      React
+                    </a>
+                  </span>
+                </span>
+              </p>
+            </div>
+          </section>
+        </section>
+        <section
+          class="c22"
+        >
+          <div
+            class="c23"
+          >
+            <p>
+              <span
+                style="color:rgb(0,0,0);"
+              >
+                O 
+              </span>
+              <i>
+                Effect Hook
+              </i>
+              <span
+                style="color:rgb(0,0,0);"
+              >
+                 (Hook de Efeito) te permite executar efeitos colaterais em componentes funcionais:
+              </span>
+            </p>
+            <pre>
+              <code
+                class="language-plaintext"
+              >
+                import React, { useState, useEffect } from 'react';
+function Exemplo() {
+  const [count, setCount] = useState(0);
+
+  // Similar ao componentDidMount e componentDidUpdate:  useEffect(() =&gt; {    // Atualiza o titulo do documento usando a API do browser    document.title = \`Você clicou \${count} vezes\`;  });
+  return (
+    &lt;div&gt;
+      &lt;p&gt;Você clicou {count} vezes&lt;/p&gt;
+      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;
+        Clique aqui
+      &lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+              </code>
+            </pre>
+            <p>
+               
+            </p>
+            <p
+              style="margin-left:0px;"
+            >
+              Esse trecho de código é baseado no 
+              <a
+                href="https://pt-br.reactjs.org/docs/hooks-state.html"
+              >
+                exemplo de contador da página anterior
+              </a>
+              , mas nós adicionamos uma nova funcionalidade a ele: nós definimos o titulo do documento para ser uma mensagem customizada que inclua o número de cliques.
+            </p>
+            <p
+              style="margin-left:0px;"
+            >
+              Buscar dados, configurar uma subscription, e mudar o DOM manualmente dentro dos componentes React são exemplos de efeitos colaterais. Esteja você acostumado ou não a chamar essas operações de “efeitos colaterais” (ou somente “efeitos”), você provavelmente já usou eles em seus componentes antes.
+            </p>
+            <p
+              style="margin-left:0px;"
+            >
+               
+            </p>
+            <p
+              style="margin-left:0px;"
+            >
+              <strong>
+                Dica
+              </strong>
+            </p>
+            <p
+              style="margin-left:0px;"
+            >
+              Se você está familiarizado com os métodos do ciclo de vida do React, você pode pensar no Hook 
+              <code>
+                useEffect
+              </code>
+               como 
+              <code>
+                componentDidMount
+              </code>
+              , 
+              <code>
+                componentDidUpdate
+              </code>
+              , e 
+              <code>
+                componentWillUnmount
+              </code>
+               combinados.
+            </p>
+            <p
+              style="margin-left:0px;"
+            >
+               
+            </p>
+            <p
+              style="margin-left:0px;"
+            >
+              Existem dois tipos comuns de efeitos colaterais nos componentes React: aqueles que não precisam de limpeza, e aqueles que precisam. Vamos ver as suas diferenças mais detalhadamente.
+            </p>
+            <h2
+              style="margin-left:0px;"
+            >
+               
+            </h2>
+            <figure
+              class="media"
+            >
+              <oembed
+                url="https://www.youtube.com/watch?v=jcc9T-5inrk"
+              />
+            </figure>
+          </div>
+        </section>
+      </section>
+      <div
+        class="c24"
       >
         <div
-          class="c18"
+          class="c25"
         >
-          A footer paragraph
+          tags:
+          <span>
+            <a
+              href="/tag/use-effect"
+            >
+              useReducer
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c26"
+    >
+      <footer
+        class="c27"
+      >
+        <div
+          class="c23"
+        >
+          <p>
+            A footer paragraph
+          </p>
         </div>
       </footer>
     </div>
     <a
       aria-label="Go to top"
-      class="c19"
+      class="c28"
       href="#"
       title="Go to top"
     >

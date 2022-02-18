@@ -1,11 +1,15 @@
 export default {
+  slug: '',
   id: 'sahsdhasd',
   title:
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
   excerpt:
     "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-  cover:
-    'https://res.cloudinary.com/dlizakp2a/image/upload/v1614696630/Frozen_sunset_on_the_lake_by_Manuel_Arslanyan_9f9cd8ea10.jpg',
+  cover: {
+    id: '61fd5673925de013f4652772',
+    alternativeText: '',
+    url: 'https://res.cloudinary.com/project-cdn/image/upload/v1643992684/use_Effect_hook_62405844a5.png',
+  },
   createdAt: '2021-03-02T15:16:09.246+00:00',
   author: {
     id: '123456789',
@@ -24,7 +28,14 @@ export default {
       slug: 'javascript',
     },
   ],
-  html: `
+  tags: [
+    {
+      id: '61fd5394f6fd1926a0820a04',
+      displayName: 'useReducer',
+      slug: 'use-effect',
+    },
+  ],
+  content: `
   <p>Nostro <strong>definitiones</strong> (<i>React</i>) sed cu - <u>Otávio Miranda</u>. Sea <code>useEffect</code>, useState dicat fabulas <a href="https://gist.github.com/luizomf/e7cf0c3d172801225cce694681ecb0ad">consetetur</a> no, odio deseruisse assueverit mei eu, vis probo nonumes molestie id. Ipsum movet liberavisse an mea, diceret vituperata ne his, delenit apeirian quo ea. Imperdiet percipitur te eos. Per ludus aliquam cu. <a href="https://gist.github.com/luizomf/e7cf0c3d172801225cce694681ecb0ad">Eos ex tincidunt necessitatibus, timeam theophrastus mel cu</a>. La.</p>
   <h1>Tincidunt necessitatibus, timeam theophrastus mel cu</h1>
   <h2>Tincidunt necessitatibus, timeam theophrastus mel cu</h2>
