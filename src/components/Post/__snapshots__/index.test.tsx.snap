@@ -253,7 +253,7 @@ exports[
               Por 
             </span>
             <a
-              href="/author/luan-mateus"
+              href="/authors/luan-mateus"
             >
               Luan Mateus
             </a>
@@ -277,14 +277,14 @@ exports[
             >
               <span>
                 <a
-                  href="/category/tech"
+                  href="/categories/tech"
                 >
                   Tech
                 </a>
               </span>
               <span>
                 <a
-                  href="/category/javascript"
+                  href="/categories/javascript"
                 >
                   JS
                 </a>

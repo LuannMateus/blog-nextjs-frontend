@@ -650,7 +650,7 @@ exports[`<PostTemplate /> should render 1`] = `
                   Por 
                 </span>
                 <a
-                  href="/author/luan-mateus"
+                  href="/authors/luan-mateus"
                 >
                   LuanMateus
                 </a>
@@ -672,7 +672,7 @@ exports[`<PostTemplate /> should render 1`] = `
                 >
                   <span>
                     <a
-                      href="/category/react"
+                      href="/categories/react"
                     >
                       React
                     </a>
@@ -809,7 +809,7 @@ function Exemplo() {
           tags:
           <span>
             <a
-              href="/tag/use-effect"
+              href="/tags/use-effect"
             >
               useReducer
             </a>

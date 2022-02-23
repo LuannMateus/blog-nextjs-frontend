@@ -10,17 +10,17 @@ describe('<ArticleMeta />', () => {
 
     expect(screen.getByRole('link', { name: 'Luan Mateus' })).toHaveAttribute(
       'href',
-      '/author/luan-mateus',
+      '/authors/luan-mateus',
     );
 
     expect(screen.getByRole('link', { name: 'Tech' })).toHaveAttribute(
       'href',
-      '/category/tech',
+      '/categories/tech',
     );
 
     expect(screen.getByRole('link', { name: 'JS' })).toHaveAttribute(
       'href',
-      '/category/javascript',
+      '/categories/javascript',
     );
   });
 

@@ -21,7 +21,7 @@ export const ArticleMeta = ({
         {typeof author !== 'undefined' && (
           <>
             <span>Por </span>
-            <Link href={`/author/${author.slug}`}>
+            <Link href={`/authors/${author.slug}`}>
               <a>{author.displayName}</a>
             </Link>
             <span className="separator"> | </span>
@@ -37,7 +37,7 @@ export const ArticleMeta = ({
               {categories.map((category) => {
                 return (
                   <span key={`article-meta-cat-${category.id}`}>
-                    <Link href={`/category/${category.slug}`}>
+                    <Link href={`/categories/${category.slug}`}>
                       <a>{category.displayName}</a>
                     </Link>
                   </span>

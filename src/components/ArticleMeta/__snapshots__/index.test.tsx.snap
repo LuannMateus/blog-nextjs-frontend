@@ -37,7 +37,7 @@ exports[`<ArticleMeta /> Should match snapshot 1`] = `
         Por 
       </span>
       <a
-        href="/author/luan-mateus"
+        href="/authors/luan-mateus"
       >
         Luan Mateus
       </a>
@@ -61,14 +61,14 @@ exports[`<ArticleMeta /> Should match snapshot 1`] = `
       >
         <span>
           <a
-            href="/category/tech"
+            href="/categories/tech"
           >
             Tech
           </a>
         </span>
         <span>
           <a
-            href="/category/javascript"
+            href="/categories/javascript"
           >
             JS
           </a>
