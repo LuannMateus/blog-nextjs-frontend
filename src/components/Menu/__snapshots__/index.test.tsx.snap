@@ -38,6 +38,7 @@ exports[`<Menu /> Should match snapshot 1`] = `
   border-right: 0.5rem solid #000000;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  cursor: pointer;
 }
 
 .c8:hover {
@@ -192,30 +193,22 @@ exports[`<Menu /> Should match snapshot 1`] = `
           class="c8"
           href="https://www.google.com/"
           target="_self"
-        >
-          LINK 1
-        </a>
+        />
         <a
           class="c8"
           href="https://www.google.com/"
           target="_self"
-        >
-          LINK 2
-        </a>
+        />
         <a
           class="c8"
           href="https://www.google.com/"
           target="_self"
-        >
-          LINK 3
-        </a>
+        />
         <a
           class="c8"
           href="https://www.google.com/"
           target="_self"
-        >
-          LINK 4
-        </a>
+        />
       </section>
     </nav>
   </div>

@@ -44,9 +44,8 @@ export const Menu = ({ blogName, links = [], logo }: MenuProps) => {
                   key={`menu-link-${link.id}`}
                   link={link.link}
                   newTab={link.newTab}
-                >
-                  {link.children}
-                </MenuLink>
+                  text={link.text}
+                />
               );
             })}
           </Styled.MenuLinkContainer>

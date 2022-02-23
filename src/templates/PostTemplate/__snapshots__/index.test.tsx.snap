@@ -338,6 +338,7 @@ exports[`<PostTemplate /> should render 1`] = `
   border-right: 0.5rem solid #000000;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  cursor: pointer;
 }
 
 .c10:hover {
@@ -576,9 +577,7 @@ exports[`<PostTemplate /> should render 1`] = `
             class="c10"
             href="https://pt-br.reactjs.org/docs/hooks-effect.html"
             target="_blank"
-          >
-            useEffect
-          </a>
+          />
         </section>
       </nav>
     </div>

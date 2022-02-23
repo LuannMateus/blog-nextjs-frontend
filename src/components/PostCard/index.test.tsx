@@ -15,7 +15,7 @@ describe('<PostCard />', () => {
     expect(screen.getByText(props.excerpt)).toBeInTheDocument();
     expect(
       screen.getAllByRole('link', { name: props.title })[0],
-    ).toHaveAttribute('href', `/post/${props.slug}`);
+    ).toHaveAttribute('href', `/posts/${props.slug}`);
   });
 
   it('Should match snapshot', () => {

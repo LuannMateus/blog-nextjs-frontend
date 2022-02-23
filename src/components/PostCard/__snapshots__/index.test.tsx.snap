@@ -49,7 +49,7 @@ exports[`<PostCard /> Should match snapshot 1`] = `
     class="c0"
   >
     <a
-      href="/post/usando-effect-hook-hook-de-efeito"
+      href="/posts/usando-effect-hook-hook-de-efeito"
     >
       <img
         alt="Usando Effect Hook (Hook de Efeito)"
@@ -61,7 +61,7 @@ exports[`<PostCard /> Should match snapshot 1`] = `
       class="c2 c3"
     >
       <a
-        href="/post/usando-effect-hook-hook-de-efeito"
+        href="/posts/usando-effect-hook-hook-de-efeito"
       >
         Usando Effect Hook (Hook de Efeito)
       </a>

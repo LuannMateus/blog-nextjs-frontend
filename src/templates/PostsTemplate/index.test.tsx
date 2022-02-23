@@ -1,18 +1,18 @@
 import { renderTheme } from '../../styles/renderTheme';
-import { PostTemplate } from '.';
+import { PostsTemplate } from '.';
 
 import props from './mock';
 
 describe('<PostTemplate />', () => {
   it('Should match snapshot', () => {
-    const { container } = renderTheme(<PostTemplate {...props} />);
+    const { container } = renderTheme(<PostsTemplate {...props} />);
 
     expect(container).toMatchSnapshot();
   });
 
   it('Should match snapshot without posts', () => {
     const { container } = renderTheme(
-      <PostTemplate {...props} posts={undefined} />,
+      <PostsTemplate {...props} posts={undefined} />,
     );
 
     expect(container).toMatchSnapshot();
