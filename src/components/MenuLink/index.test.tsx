@@ -23,6 +23,15 @@ describe('<MenuLink />', () => {
     );
   });
 
+  it('Should render a link without open new tab', () => {
+    renderTheme(<MenuLink {...props} newTab={undefined} />);
+
+    expect(screen.getByRole('link', { name: 'MenuLink' })).toHaveAttribute(
+      'target',
+      '_self',
+    );
+  });
+
   it('Should render a internal link', () => {
     renderTheme(<MenuLink {...props} link="/localhost" />);
 

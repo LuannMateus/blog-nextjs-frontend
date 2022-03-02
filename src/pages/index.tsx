@@ -1,9 +1,24 @@
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
-import { loadPosts, StrapiPostAndSettings } from '../api/loadPosts';
+import {
+  defaultLoadPostVariables,
+  loadPosts,
+  StrapiPostAndSettings,
+} from '../api/loadPosts';
 import { PostsTemplate } from '../templates/PostsTemplate';
 
-export default function Index({ posts, setting }: StrapiPostAndSettings) {
+export type PaginationProps = {
+  limit: number;
+  start: number;
+};
+
+export default function Index({
+  posts,
+  setting,
+  variables,
+}: StrapiPostAndSettings) {
+  console.log(variables);
+
   return (
     <>
       <Head>
@@ -12,7 +27,7 @@ export default function Index({ posts, setting }: StrapiPostAndSettings) {
         </title>
         <meta name="description" content={setting?.blogDescription} />
       </Head>
-      <PostsTemplate posts={posts} settings={setting} />
+      <PostsTemplate posts={posts} settings={setting} variables={variables} />
     </>
   );
 }
@@ -36,6 +51,7 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       posts: data.posts,
       setting: data.setting,
+      variables: { ...defaultLoadPostVariables },
     },
     revalidate: 24 * 60 * 60,
   };
