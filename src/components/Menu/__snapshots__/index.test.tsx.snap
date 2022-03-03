@@ -193,22 +193,30 @@ exports[`<Menu /> Should match snapshot 1`] = `
           class="c8"
           href="https://www.google.com/"
           target="_self"
-        />
+        >
+          LINK 1
+        </a>
         <a
           class="c8"
           href="https://www.google.com/"
           target="_self"
-        />
+        >
+          LINK 2
+        </a>
         <a
           class="c8"
           href="https://www.google.com/"
           target="_self"
-        />
+        >
+          LINK 3
+        </a>
         <a
           class="c8"
           href="https://www.google.com/"
           target="_self"
-        />
+        >
+          LINK 4
+        </a>
       </section>
     </nav>
   </div>
