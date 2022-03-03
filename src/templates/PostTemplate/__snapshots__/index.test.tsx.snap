@@ -1,6 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PostTemplate /> should render 1`] = `
+.c33 {
+  max-width: 80rem;
+  width: 100%;
+  margin: 3.2rem auto;
+  padding: 0 3.2rem;
+}
+
 .c11 {
   line-height: 1.2;
   color: #000000;
@@ -231,12 +238,12 @@ exports[`<PostTemplate /> should render 1`] = `
   filter: brightness(50%);
 }
 
-.c34 {
+.c35 {
   width: 100%;
   text-align: center;
 }
 
-.c34 a {
+.c35 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -249,7 +256,7 @@ exports[`<PostTemplate /> should render 1`] = `
   overflow: hidden;
 }
 
-.c35 {
+.c36 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -536,7 +543,7 @@ exports[`<PostTemplate /> should render 1`] = `
   margin-bottom: 6.4rem;
 }
 
-.c33 {
+.c34 {
   width: 100%;
   margin: 0 auto;
   padding: 0;
@@ -941,12 +948,19 @@ function Exemplo() {
           </span>
         </div>
       </div>
+      <div
+        class="c33"
+      >
+        <div
+          id="disqus_thread"
+        />
+      </div>
     </div>
     <div
-      class="c33"
+      class="c34"
     >
       <footer
-        class="c34"
+        class="c35"
       >
         <div
           class="c30"
@@ -959,7 +973,7 @@ function Exemplo() {
     </div>
     <a
       aria-label="Go to top"
-      class="c35"
+      class="c36"
       href="#"
       title="Go to top"
     >
