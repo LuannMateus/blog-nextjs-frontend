@@ -64,7 +64,7 @@ export const OpenCloseWrapper = styled.div`
 
     svg {
       width: 3rem;
-      color: ${theme.colors.secondary};
+      color: ${theme.colors.white};
 
       padding-right: 3.5rem;
       padding-top: 1rem;

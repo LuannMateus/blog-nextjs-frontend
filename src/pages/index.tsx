@@ -17,8 +17,6 @@ export default function Index({
   setting,
   variables,
 }: StrapiPostAndSettings) {
-  console.log(variables);
-
   return (
     <>
       <Head>

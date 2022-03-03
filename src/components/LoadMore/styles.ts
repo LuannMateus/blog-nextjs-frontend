@@ -6,7 +6,7 @@ export const Wrapper = styled.button`
 
     border: 1px solid ${theme.colors.darkText};
 
-    background: #000;
+    background: ${theme.colors.primary};
     color: ${theme.colors.white};
 
     display: flex;

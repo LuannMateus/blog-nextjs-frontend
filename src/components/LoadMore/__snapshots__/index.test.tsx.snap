@@ -4,7 +4,7 @@ exports[`<LoadMore /> Should match snapshot 1`] = `
 .c0 {
   width: 16rem;
   border: 1px solid #333333;
-  background: #000;
+  background: #000000;
   color: #FFFFFF;
   display: -webkit-box;
   display: -webkit-flex;
