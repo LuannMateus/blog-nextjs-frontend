@@ -3,4 +3,5 @@ export default {
   onClick: () => {
     console.log('Action');
   },
+  children: 'Carregar mais',
 };

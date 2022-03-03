@@ -36,6 +36,8 @@ exports[`<LoadMore /> Should match snapshot 1`] = `
 <div>
   <button
     class="c0"
-  />
+  >
+    Carregar mais
+  </button>
 </div>
 `;
