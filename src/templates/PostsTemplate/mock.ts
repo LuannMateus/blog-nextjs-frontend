@@ -1,4 +1,4 @@
-import { PostTemplateProps } from '.';
+import { PostsTemplateProps } from '.';
 
 export default {
   settings: {
@@ -15,7 +15,7 @@ export default {
       {
         id: '61fd600506f225328cbe0647',
         link: 'https://pt-br.reactjs.org/docs/hooks-effect.html',
-        children: 'useEffect',
+        text: 'useEffect',
         newTab: true,
       },
     ],
@@ -57,4 +57,4 @@ export default {
       },
     },
   ],
-} as PostTemplateProps;
+} as PostsTemplateProps;

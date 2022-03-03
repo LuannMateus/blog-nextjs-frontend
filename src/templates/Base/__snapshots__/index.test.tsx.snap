@@ -555,7 +555,9 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
             class="c15"
             href="https://pt-br.reactjs.org/docs/hooks-effect.html"
             target="_blank"
-          />
+          >
+            useEffect
+          </a>
         </section>
       </nav>
     </div>
