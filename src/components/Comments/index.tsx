@@ -16,7 +16,7 @@ export const Comments = ({ id, slug, title, allowComments }: CommentsProps) => {
       <DiscussionEmbed
         shortname="blog-luan"
         config={{
-          url: `/posts/${slug}`,
+          url: `https://blog-nextjs-frontend.vercel.app/posts/${slug}`,
           identifier: id,
           title: title,
           language: 'pt_BR',
