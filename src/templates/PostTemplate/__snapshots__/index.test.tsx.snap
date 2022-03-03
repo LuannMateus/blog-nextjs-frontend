@@ -15,77 +15,50 @@ exports[`<PostTemplate /> should render 1`] = `
   text-transform: none;
 }
 
-.c18 {
+.c20 {
   line-height: 1.2;
   color: #000000;
   font-size: 6.4rem;
   text-transform: none;
 }
 
-.c17 {
+.c19 {
   padding-bottom: 4.0rem;
   margin-bottom: 4.0rem;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c17 .c5 {
+.c19 .c5 {
   margin: 0;
   margin-bottom: 2.4rem;
 }
 
-.c19 {
+.c21 {
   font-size: 2.4rem;
   margin: 2.4rem 0;
 }
 
-.c20 {
+.c22 {
   display: block;
   max-width: 100%;
   margin-bottom: 2.4rem;
 }
 
-.c21 {
+.c23 {
   font-size: 1.6rem;
   color: #AAAAAA;
   font-style: italic;
 }
 
-.c21 .categories span::after {
+.c23 .categories span::after {
   content: ', ';
 }
 
-.c21 .categories span:last-child::after {
+.c23 .categories span:last-child::after {
   content: '';
 }
 
-.c21 a {
-  color: #dc143c;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.c21 a:hover {
-  -webkit-filter: brightness(50%);
-  filter: brightness(50%);
-}
-
-.c23 {
-  width: 100%;
-  font-size: calc(1.6rem + 0.2rem);
-  line-height: 1.5;
-}
-
-.c23 p {
-  width: 100%;
-  margin: 2.4rem 0;
-  word-wrap: break-word;
-}
-
-.c23 a,
-.c23 a:visited,
-.c23 a:link {
+.c23 a {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -98,127 +71,21 @@ exports[`<PostTemplate /> should render 1`] = `
   filter: brightness(50%);
 }
 
-.c23 code {
-  font-family: monospace;
-  color: #dc143c;
-  font-size: 1.6rem;
-  background: #DDDDDD;
-  padding: 0.2rem;
-  margin: 0.2rem;
-}
-
-.c23 pre {
-  background: #000000;
-  padding: 2.4rem;
-  font-family: monospace;
-  color: #FFFFFF;
-  margin: 2.4rem 0;
-  overflow-x: auto;
-  font-size: 1.6rem;
-}
-
-.c23 pre code {
-  color: inherit;
-  background: inherit;
-}
-
-.c23 img {
-  max-width: 100%;
-}
-
-.c23 .image {
-  background: #DDDDDD;
-  line-height: 0;
-  margin: 2.4rem 0;
-}
-
-.c23 .image figcaption {
-  font-size: 1.6rem;
-  padding: 1.6rem 0;
-  text-align: center;
-  line-height: 1.3;
-  margin: 2.4rem 0;
-}
-
-.c23 .image-style-side {
-  max-width: 50%;
-  float: right;
-  margin: 2.4rem;
-}
-
-.c23 hr {
-  border: none;
-  border: 1px solid red;
-  border-bottom: 0.1rem solid #DDDDDD;
-}
-
-.c23 ul,
-.c23 ol {
-  margin: 2.4rem 4.0rem;
-}
-
-.c23 .table {
-  width: 100%;
-  overflow: hidden;
-  overflow-x: auto;
-}
-
-.c23 table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.c23 table td,
-.c23 table th {
-  padding: 1.6rem;
-  border: 0.1rem solid #DDDDDD;
-}
-
-.c23 blockquote {
-  border-left: 0.5rem solid #dc143c;
-  color: #AAAAAA;
-  -webkit-filter: brightness(80%);
-  filter: brightness(80%);
-  padding-left: 2.4rem;
-  font-style: italic;
-  margin: 2.4rem;
-}
-
-.c16 {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-  max-width: 96rem;
-}
-
-.c22 {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-  max-width: 80rem;
-}
-
 .c25 {
+  width: 100%;
+  font-size: calc(1.6rem + 0.2rem);
+  line-height: 1.5;
+}
+
+.c25 p {
+  width: 100%;
   margin: 2.4rem 0;
+  word-wrap: break-word;
 }
 
-.c25 span {
-  margin: 0 0 0 0.5rem;
-}
-
-.c25 span::before {
-  content: ' ';
-}
-
-.c25 span::after {
-  content: ', ';
-}
-
-.c25 span:last-child::after {
-  content: '';
-}
-
-.c25 a {
+.c25 a,
+.c25 a:visited,
+.c25 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -231,12 +98,145 @@ exports[`<PostTemplate /> should render 1`] = `
   filter: brightness(50%);
 }
 
+.c25 code {
+  font-family: monospace;
+  color: #dc143c;
+  font-size: 1.6rem;
+  background: #DDDDDD;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.c25 pre {
+  background: #000000;
+  padding: 2.4rem;
+  font-family: monospace;
+  color: #FFFFFF;
+  margin: 2.4rem 0;
+  overflow-x: auto;
+  font-size: 1.6rem;
+}
+
+.c25 pre code {
+  color: inherit;
+  background: inherit;
+}
+
+.c25 img {
+  max-width: 100%;
+}
+
+.c25 .image {
+  background: #DDDDDD;
+  line-height: 0;
+  margin: 2.4rem 0;
+}
+
+.c25 .image figcaption {
+  font-size: 1.6rem;
+  padding: 1.6rem 0;
+  text-align: center;
+  line-height: 1.3;
+  margin: 2.4rem 0;
+}
+
+.c25 .image-style-side {
+  max-width: 50%;
+  float: right;
+  margin: 2.4rem;
+}
+
+.c25 hr {
+  border: none;
+  border: 1px solid red;
+  border-bottom: 0.1rem solid #DDDDDD;
+}
+
+.c25 ul,
+.c25 ol {
+  margin: 2.4rem 4.0rem;
+}
+
+.c25 .table {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.c25 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.c25 table td,
+.c25 table th {
+  padding: 1.6rem;
+  border: 0.1rem solid #DDDDDD;
+}
+
+.c25 blockquote {
+  border-left: 0.5rem solid #dc143c;
+  color: #AAAAAA;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  padding-left: 2.4rem;
+  font-style: italic;
+  margin: 2.4rem;
+}
+
+.c18 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 96rem;
+}
+
+.c24 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 80rem;
+}
+
 .c27 {
+  margin: 2.4rem 0;
+}
+
+.c27 span {
+  margin: 0 0 0 0.5rem;
+}
+
+.c27 span::before {
+  content: ' ';
+}
+
+.c27 span::after {
+  content: ', ';
+}
+
+.c27 span:last-child::after {
+  content: '';
+}
+
+.c27 a {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c27 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c29 {
   width: 100%;
   text-align: center;
 }
 
-.c27 a {
+.c29 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -249,7 +249,7 @@ exports[`<PostTemplate /> should render 1`] = `
   overflow: hidden;
 }
 
-.c28 {
+.c30 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -437,38 +437,62 @@ exports[`<PostTemplate /> should render 1`] = `
 }
 
 .c15 {
+  margin: 0 auto;
+  margin-bottom: 4.0rem;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c16 {
+  padding: 0.5rem 1.6rem;
+}
+
+.c17 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 6.4rem;
 }
 
-.c26 {
+.c28 {
   width: 100%;
   margin: 0 auto;
   padding: 0;
 }
 
-.c24 {
+.c26 {
   padding: 0 3.2rem;
 }
 
 @media (max-width:768px) {
-  .c18 {
+  .c20 {
     font-size: 4.0rem;
   }
 }
 
 @media (max-width:768px) {
-  .c23 {
+  .c25 {
     font-size: 2rem;
   }
 
-  .c23 pre {
+  .c25 pre {
     width: 82%;
   }
 
-  .c23 .image-style-side {
+  .c25 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
@@ -476,13 +500,13 @@ exports[`<PostTemplate /> should render 1`] = `
 }
 
 @media (max-width:768px) {
-  .c16 {
+  .c18 {
     padding: 0;
   }
 }
 
 @media (max-width:768px) {
-  .c22 {
+  .c24 {
     padding: 0;
   }
 }
@@ -510,13 +534,13 @@ exports[`<PostTemplate /> should render 1`] = `
 }
 
 @media (max-width:768px) {
-  .c15 {
+  .c17 {
     width: 100%;
   }
 }
 
 @media (max-width:768px) {
-  .c24 {
+  .c26 {
     padding-left: 2px;
   }
 }
@@ -618,32 +642,47 @@ exports[`<PostTemplate /> should render 1`] = `
     <div
       class="c15"
     >
+      <form
+        action="/search/"
+        method="GET"
+      >
+        <input
+          class="c16"
+          name="q"
+          placeholder="Encontre posts"
+          type="search"
+        />
+      </form>
+    </div>
+    <div
+      class="c17"
+    >
       <section
         class=""
       >
         <section
-          class="c16"
+          class="c18"
         >
           <section
-            class="c17"
+            class="c19"
           >
             <h2
-              class="c5 c18"
+              class="c5 c20"
             >
               Usando Effect Hook (Hook de Efeito)
             </h2>
             <p
-              class="c19"
+              class="c21"
             >
               O Effect Hook (Hook de Efeito) te permite executar efeitos colaterais em componentes funcionais.
             </p>
             <img
               alt="Usando Effect Hook (Hook de Efeito)"
-              class="c20"
+              class="c22"
               src="https://res.cloudinary.com/project-cdn/image/upload/v1643992684/use_Effect_hook_62405844a5.png"
             />
             <div
-              class="c21"
+              class="c23"
             >
               <p>
                 <span>
@@ -683,10 +722,10 @@ exports[`<PostTemplate /> should render 1`] = `
           </section>
         </section>
         <section
-          class="c22"
+          class="c24"
         >
           <div
-            class="c23"
+            class="c25"
           >
             <p>
               <span
@@ -801,10 +840,10 @@ function Exemplo() {
         </section>
       </section>
       <div
-        class="c24"
+        class="c26"
       >
         <div
-          class="c25"
+          class="c27"
         >
           tags:
           <span>
@@ -818,13 +857,13 @@ function Exemplo() {
       </div>
     </div>
     <div
-      class="c26"
+      class="c28"
     >
       <footer
-        class="c27"
+        class="c29"
       >
         <div
-          class="c23"
+          class="c25"
         >
           <p>
             A footer paragraph
@@ -834,7 +873,7 @@ function Exemplo() {
     </div>
     <a
       aria-label="Go to top"
-      class="c28"
+      class="c30"
       href="#"
       title="Go to top"
     >

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PostTemplate /> Should match snapshot 1`] = `
-.c20 {
+.c22 {
   width: 16rem;
   border: 1px solid #333333;
   background: #000;
@@ -24,12 +24,12 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   transition: filter 300ms ease-in-out;
 }
 
-.c20:hover {
+.c22:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c20:disabled {
+.c22:disabled {
   opacity: 0.4;
 }
 
@@ -47,13 +47,13 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   text-transform: none;
 }
 
-.c17 .c5 {
+.c19 .c5 {
   margin: 0;
   margin-top: calc(1.6rem - 0.6rem);
   margin-bottom: 1.6rem;
 }
 
-.c17 a {
+.c19 a {
   -webkit-text-decoration: none;
   text-decoration: none;
   color: inherit;
@@ -61,29 +61,29 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c17 img {
+.c19 img {
   -webkit-transition: filter 300ms ease-in-out;
   transition: filter 300ms ease-in-out;
   width: 100%;
   max-width: 100%;
 }
 
-.c17:hover a {
+.c19:hover a {
   color: #dc143c;
 }
 
-.c17:hover img {
+.c19:hover img {
   -webkit-filter: brightness(80%);
   filter: brightness(80%);
 }
 
-.c18 {
+.c20 {
   max-width: 100%;
   -webkit-transition: opacity 300ms ease-in-out;
   transition: opacity 300ms ease-in-out;
 }
 
-.c16 {
+.c18 {
   max-width: 100%;
   margin: 0 auto;
   display: grid;
@@ -92,33 +92,33 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   padding: 3.2rem;
 }
 
-.c22 {
+.c24 {
   width: 100%;
   text-align: center;
 }
 
-.c22 a {
+.c24 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1.6rem;
 }
 
-.c23 {
+.c25 {
   width: 100%;
   font-size: calc(1.6rem + 0.2rem);
   line-height: 1.5;
 }
 
-.c23 p {
+.c25 p {
   width: 100%;
   margin: 2.4rem 0;
   word-wrap: break-word;
 }
 
-.c23 a,
-.c23 a:visited,
-.c23 a:link {
+.c25 a,
+.c25 a:visited,
+.c25 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -126,12 +126,12 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c23 a:hover {
+.c25 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c23 code {
+.c25 code {
   font-family: monospace;
   color: #dc143c;
   font-size: 1.6rem;
@@ -140,7 +140,7 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   margin: 0.2rem;
 }
 
-.c23 pre {
+.c25 pre {
   background: #000000;
   padding: 2.4rem;
   font-family: monospace;
@@ -150,22 +150,22 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   font-size: 1.6rem;
 }
 
-.c23 pre code {
+.c25 pre code {
   color: inherit;
   background: inherit;
 }
 
-.c23 img {
+.c25 img {
   max-width: 100%;
 }
 
-.c23 .image {
+.c25 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c23 .image figcaption {
+.c25 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem 0;
   text-align: center;
@@ -173,41 +173,41 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   margin: 2.4rem 0;
 }
 
-.c23 .image-style-side {
+.c25 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem;
 }
 
-.c23 hr {
+.c25 hr {
   border: none;
   border: 1px solid red;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c23 ul,
-.c23 ol {
+.c25 ul,
+.c25 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c23 .table {
+.c25 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c23 table {
+.c25 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.c23 table td,
-.c23 table th {
+.c25 table td,
+.c25 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c23 blockquote {
+.c25 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -223,7 +223,7 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   overflow: hidden;
 }
 
-.c24 {
+.c26 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -411,19 +411,43 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
 }
 
 .c15 {
+  margin: 0 auto;
+  margin-bottom: 4.0rem;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c16 {
+  padding: 0.5rem 1.6rem;
+}
+
+.c17 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 6.4rem;
 }
 
-.c21 {
+.c23 {
   width: 100%;
   margin: 0 auto;
   padding: 0;
 }
 
-.c19 {
+.c21 {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -440,21 +464,21 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
 }
 
 @media (max-width:360px) {
-  .c16 {
+  .c18 {
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width:768px) {
-  .c23 {
+  .c25 {
     font-size: 2rem;
   }
 
-  .c23 pre {
+  .c25 pre {
     width: 82%;
   }
 
-  .c23 .image-style-side {
+  .c25 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
@@ -484,7 +508,7 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
 }
 
 @media (max-width:768px) {
-  .c15 {
+  .c17 {
     width: 100%;
   }
 }
@@ -586,18 +610,33 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
     <div
       class="c15"
     >
+      <form
+        action="/search/"
+        method="GET"
+      >
+        <input
+          class="c16"
+          name="q"
+          placeholder="Encontre posts"
+          type="search"
+        />
+      </form>
+    </div>
+    <div
+      class="c17"
+    >
       <main
-        class="c16"
+        class="c18"
       >
         <section
-          class="c17"
+          class="c19"
         >
           <a
             href="/posts/usando-effect-hook-hook-de-efeito"
           >
             <img
               alt="Usando Effect Hook (Hook de Efeito)"
-              class="c18"
+              class="c20"
               src="https://res.cloudinary.com/project-cdn/image/upload/v1643992684/use_Effect_hook_62405844a5.png"
             />
           </a>
@@ -618,23 +657,23 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
         </section>
       </main>
       <div
-        class="c19"
+        class="c21"
       >
         <button
-          class="c20"
+          class="c22"
         >
           Carregar mais
         </button>
       </div>
     </div>
     <div
-      class="c21"
+      class="c23"
     >
       <footer
-        class="c22"
+        class="c24"
       >
         <div
-          class="c23"
+          class="c25"
         >
           <p>
             A footer paragraph
@@ -644,7 +683,7 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
     </div>
     <a
       aria-label="Go to top"
-      class="c24"
+      class="c26"
       href="#"
       title="Go to top"
     >
@@ -670,38 +709,6 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
 `;
 
 exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
-.c19 {
-  width: 16rem;
-  border: 1px solid #333333;
-  background: #000;
-  color: #FFFFFF;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 1.6rem;
-  cursor: pointer;
-  -webkit-transition: filter 300ms ease-in-out;
-  transition: filter 300ms ease-in-out;
-}
-
-.c19:hover {
-  -webkit-filter: brightness(50%);
-  filter: brightness(50%);
-}
-
-.c19:disabled {
-  opacity: 0.4;
-}
-
 .c6 {
   line-height: 1.2;
   color: #000000;
@@ -716,7 +723,7 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   text-transform: none;
 }
 
-.c16 {
+.c18 {
   max-width: 100%;
   margin: 0 auto;
   display: grid;
@@ -725,7 +732,7 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   padding: 3.2rem;
 }
 
-.c17 {
+.c19 {
   padding: 3.2rem;
   text-align: center;
   font-size: 1.6rem;
@@ -1050,6 +1057,30 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
 }
 
 .c15 {
+  margin: 0 auto;
+  margin-bottom: 4.0rem;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c16 {
+  padding: 0.5rem 1.6rem;
+}
+
+.c17 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
@@ -1062,24 +1093,8 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   padding: 0;
 }
 
-.c18 {
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 @media (max-width:360px) {
-  .c16 {
+  .c18 {
     grid-template-columns: 1fr;
   }
 }
@@ -1123,7 +1138,7 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
 }
 
 @media (max-width:768px) {
-  .c15 {
+  .c17 {
     width: 100%;
   }
 }
@@ -1225,24 +1240,30 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
     <div
       class="c15"
     >
+      <form
+        action="/search/"
+        method="GET"
+      >
+        <input
+          class="c16"
+          name="q"
+          placeholder="Encontre posts"
+          type="search"
+        />
+      </form>
+    </div>
+    <div
+      class="c17"
+    >
       <main
-        class="c16"
+        class="c18"
       >
         <p
-          class="c17"
+          class="c19"
         >
           Nenhum post encontrado aqui =(
         </p>
       </main>
-      <div
-        class="c18"
-      >
-        <button
-          class="c19"
-        >
-          Carregar mais
-        </button>
-      </div>
     </div>
     <div
       class="c20"

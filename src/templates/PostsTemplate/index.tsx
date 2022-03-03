@@ -47,11 +47,14 @@ export const PostsTemplate = ({
   return (
     <Base settings={settings}>
       <PostGrid posts={postsState} />
-      <Styled.LoadMoreContainer>
-        <LoadMore onClick={handleLoadMorePosts} isDisabled={isButtonDisabled}>
-          {noMorePosts ? 'Sem mais posts' : 'Carregar mais'}
-        </LoadMore>
-      </Styled.LoadMoreContainer>
+
+      {postsState && postsState.length ? (
+        <Styled.LoadMoreContainer>
+          <LoadMore onClick={handleLoadMorePosts} isDisabled={isButtonDisabled}>
+            {noMorePosts ? 'Sem mais posts' : 'Carregar mais'}
+          </LoadMore>
+        </Styled.LoadMoreContainer>
+      ) : null}
     </Base>
   );
 };

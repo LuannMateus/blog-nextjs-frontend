@@ -1,33 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BaseTemplate /> Should render base elements 1`] = `
-.c17 {
+.c19 {
   width: 100%;
   text-align: center;
 }
 
-.c17 a {
+.c19 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1.6rem;
 }
 
-.c18 {
+.c20 {
   width: 100%;
   font-size: calc(1.6rem + 0.2rem);
   line-height: 1.5;
 }
 
-.c18 p {
+.c20 p {
   width: 100%;
   margin: 2.4rem 0;
   word-wrap: break-word;
 }
 
-.c18 a,
-.c18 a:visited,
-.c18 a:link {
+.c20 a,
+.c20 a:visited,
+.c20 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -35,12 +35,12 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c18 a:hover {
+.c20 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c18 code {
+.c20 code {
   font-family: monospace;
   color: #dc143c;
   font-size: 1.6rem;
@@ -49,7 +49,7 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
   margin: 0.2rem;
 }
 
-.c18 pre {
+.c20 pre {
   background: #000000;
   padding: 2.4rem;
   font-family: monospace;
@@ -59,22 +59,22 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
   font-size: 1.6rem;
 }
 
-.c18 pre code {
+.c20 pre code {
   color: inherit;
   background: inherit;
 }
 
-.c18 img {
+.c20 img {
   max-width: 100%;
 }
 
-.c18 .image {
+.c20 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c18 .image figcaption {
+.c20 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem 0;
   text-align: center;
@@ -82,41 +82,41 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
   margin: 2.4rem 0;
 }
 
-.c18 .image-style-side {
+.c20 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem;
 }
 
-.c18 hr {
+.c20 hr {
   border: none;
   border: 1px solid red;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c18 ul,
-.c18 ol {
+.c20 ul,
+.c20 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c18 .table {
+.c20 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c18 table {
+.c20 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.c18 table td,
-.c18 table th {
+.c20 table td,
+.c20 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c18 blockquote {
+.c20 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -132,7 +132,7 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
   overflow: hidden;
 }
 
-.c19 {
+.c21 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -334,28 +334,52 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
 }
 
 .c15 {
+  margin: 0 auto;
+  margin-bottom: 4.0rem;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c16 {
+  padding: 0.5rem 1.6rem;
+}
+
+.c17 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 6.4rem;
 }
 
-.c16 {
+.c18 {
   width: 100%;
   margin: 0 auto;
   padding: 0;
 }
 
 @media (max-width:768px) {
-  .c18 {
+  .c20 {
     font-size: 2rem;
   }
 
-  .c18 pre {
+  .c20 pre {
     width: 82%;
   }
 
-  .c18 .image-style-side {
+  .c20 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
@@ -385,7 +409,7 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
 }
 
 @media (max-width:768px) {
-  .c15 {
+  .c17 {
     width: 100%;
   }
 }
@@ -487,16 +511,31 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
     <div
       class="c15"
     >
+      <form
+        action="/search/"
+        method="GET"
+      >
+        <input
+          class="c16"
+          name="q"
+          placeholder="Encontre posts"
+          type="search"
+        />
+      </form>
+    </div>
+    <div
+      class="c17"
+    >
       Olá mundo
     </div>
     <div
-      class="c16"
+      class="c18"
     >
       <footer
-        class="c17"
+        class="c19"
       >
         <div
-          class="c18"
+          class="c20"
         >
           A footer paragraph
         </div>
@@ -504,7 +543,7 @@ exports[`<BaseTemplate /> Should render base elements 1`] = `
     </div>
     <a
       aria-label="Go to top"
-      class="c19"
+      class="c21"
       href="#"
       title="Go to top"
     >
