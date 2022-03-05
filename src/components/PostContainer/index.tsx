@@ -16,13 +16,10 @@ const postContainerStyles = {
 export const PostContainer = styled.section<PostContainerProps>`
   ${({ theme, size }) => css`
     width: 100%;
+
     margin: 0 auto;
-    padding: 0 ${theme.spacings.large};
+    padding: 0 ${theme.spacings.small};
 
     ${postContainerStyles[size](theme)};
-
-    @media ${theme.media.lteMedium} {
-      padding: 0;
-    }
   `}
 `;

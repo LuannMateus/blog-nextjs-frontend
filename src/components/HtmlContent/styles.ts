@@ -3,11 +3,13 @@ import styled, { css } from 'styled-components';
 export const Container = styled.div`
   ${({ theme }) => css`
     width: 100%;
+
     font-size: calc(${theme.font.sizes.small} + 0.2rem);
     line-height: 1.5;
 
     p {
       width: 100%;
+
       margin: ${theme.spacings.medium} 0;
       word-wrap: break-word;
     }
@@ -118,6 +120,7 @@ export const Container = styled.div`
 
       .image-style-side {
         max-width: 100%;
+
         float: none;
         margin: 0;
       }

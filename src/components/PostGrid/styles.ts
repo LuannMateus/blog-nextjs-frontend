@@ -3,6 +3,8 @@ import styled, { css } from 'styled-components';
 export const Wrapper = styled.main`
   ${({ theme }) => css`
     max-width: 100%;
+    width: 100%;
+
     margin: 0 auto;
 
     display: grid;

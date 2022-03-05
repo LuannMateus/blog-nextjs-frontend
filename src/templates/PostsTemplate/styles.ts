@@ -1,9 +1,14 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const LoadMoreContainer = styled.div`
-  width: 100%;
+  ${({ theme }) => css`
+    width: 100%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: ${theme.spacings.medium};
+    padding-top: ${theme.spacings.small};
+  `}
 `;

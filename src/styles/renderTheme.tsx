@@ -1,8 +1,7 @@
 import { render } from '@testing-library/react';
 import { ReactNode } from 'react';
-import { ThemeProvider } from 'styled-components';
-import { theme } from './theme';
+import { BlogThemeProvider } from '../contexts/ThemeContext';
 
 export const renderTheme = (children: ReactNode) => {
-  return render(<ThemeProvider theme={theme}>{children}</ThemeProvider>);
+  return render(<BlogThemeProvider>{children}</BlogThemeProvider>);
 };

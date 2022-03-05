@@ -3,50 +3,50 @@
 exports[
   `<Post /> Should render header, excerpt, cover, metadata and post 1`
 ] = `
-.c3 {
+.c4 {
   line-height: 1.2;
   color: #000000;
   font-size: 6.4rem;
   text-transform: none;
 }
 
-.c1 {
+.c2 {
   padding-bottom: 4.0rem;
   margin-bottom: 4.0rem;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c1 .c2 {
+.c2 .c3 {
   margin: 0;
   margin-bottom: 2.4rem;
 }
 
-.c4 {
+.c5 {
   font-size: 2.4rem;
   margin: 2.4rem 0;
 }
 
-.c5 {
+.c6 {
   display: block;
   max-width: 100%;
   margin-bottom: 2.4rem;
 }
 
-.c6 {
+.c7 {
   font-size: 1.6rem;
   color: #AAAAAA;
   font-style: italic;
 }
 
-.c6 .categories span::after {
+.c7 .categories span::after {
   content: ', ';
 }
 
-.c6 .categories span:last-child::after {
+.c7 .categories span:last-child::after {
   content: '';
 }
 
-.c6 a {
+.c7 a {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -54,26 +54,26 @@ exports[
   transition: all 300ms ease-in-out;
 }
 
-.c6 a:hover {
+.c7 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c8 {
+.c9 {
   width: 100%;
   font-size: calc(1.6rem + 0.2rem);
   line-height: 1.5;
 }
 
-.c8 p {
+.c9 p {
   width: 100%;
   margin: 2.4rem 0;
   word-wrap: break-word;
 }
 
-.c8 a,
-.c8 a:visited,
-.c8 a:link {
+.c9 a,
+.c9 a:visited,
+.c9 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -81,12 +81,12 @@ exports[
   transition: all 300ms ease-in-out;
 }
 
-.c8 a:hover {
+.c9 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c8 code {
+.c9 code {
   font-family: monospace;
   color: #dc143c;
   font-size: 1.6rem;
@@ -95,7 +95,7 @@ exports[
   margin: 0.2rem;
 }
 
-.c8 pre {
+.c9 pre {
   background: #000000;
   padding: 2.4rem;
   font-family: monospace;
@@ -105,22 +105,22 @@ exports[
   font-size: 1.6rem;
 }
 
-.c8 pre code {
+.c9 pre code {
   color: inherit;
   background: inherit;
 }
 
-.c8 img {
+.c9 img {
   max-width: 100%;
 }
 
-.c8 .image {
+.c9 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c8 .image figcaption {
+.c9 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem 0;
   text-align: center;
@@ -128,41 +128,41 @@ exports[
   margin: 2.4rem 0;
 }
 
-.c8 .image-style-side {
+.c9 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem;
 }
 
-.c8 hr {
+.c9 hr {
   border: none;
   border: 1px solid red;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c8 ul,
-.c8 ol {
+.c9 ul,
+.c9 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c8 .table {
+.c9 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c8 table {
+.c9 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.c8 table td,
-.c8 table th {
+.c9 table td,
+.c9 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c8 blockquote {
+.c9 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -172,81 +172,74 @@ exports[
   margin: 2.4rem;
 }
 
-.c0 {
+.c1 {
   width: 100%;
   margin: 0 auto;
-  padding: 0 3.2rem;
+  padding: 0 1.6rem;
   max-width: 96rem;
 }
 
-.c7 {
+.c8 {
   width: 100%;
   margin: 0 auto;
-  padding: 0 3.2rem;
+  padding: 0 1.6rem;
   max-width: 80rem;
 }
 
+.c0 {
+  width: 100%;
+  padding-left: 1.6rem;
+}
+
 @media (max-width:768px) {
-  .c3 {
+  .c4 {
     font-size: 4.0rem;
   }
 }
 
 @media (max-width:768px) {
-  .c8 {
+  .c9 {
     font-size: 2rem;
   }
 
-  .c8 pre {
+  .c9 pre {
     width: 82%;
   }
 
-  .c8 .image-style-side {
+  .c9 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
   }
 }
 
-@media (max-width:768px) {
-  .c0 {
-    padding: 0;
-  }
-}
-
-@media (max-width:768px) {
-  .c7 {
-    padding: 0;
-  }
-}
-
 <div>
   <section
-    class=""
+    class="c0"
   >
     <section
-      class="c0"
+      class="c1"
     >
       <section
-        class="c1"
+        class="c2"
       >
         <h2
-          class="c2 c3"
+          class="c3 c4"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </h2>
         <p
-          class="c4"
+          class="c5"
         >
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
         </p>
         <img
           alt="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-          class="c5"
+          class="c6"
           src="https://res.cloudinary.com/project-cdn/image/upload/v1643992684/use_Effect_hook_62405844a5.png"
         />
         <div
-          class="c6"
+          class="c7"
         >
           <p>
             <span>
@@ -295,10 +288,10 @@ exports[
       </section>
     </section>
     <section
-      class="c7"
+      class="c8"
     >
       <div
-        class="c8"
+        class="c9"
       >
         
   

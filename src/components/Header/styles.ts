@@ -3,14 +3,15 @@ import { Title as HeadingStyles } from '../Heading/styles';
 
 export const Wrapper = styled.header`
   ${({ theme }) => css`
+    max-width: ${theme.sizes.max};
     width: 100%;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
+    padding-left: ${theme.spacings.small};
     padding-bottom: ${theme.spacings.xhuge};
-    max-width: ${theme.sizes.max};
     color: ${theme.colors.darkText};
     font-size: ${theme.font.sizes.small};
     margin: 0 auto;
@@ -34,8 +35,9 @@ export const Content = styled.section`
     margin-left: ${theme.spacings.medium};
 
     @media ${theme.media.lteMedium} {
+      text-align: center;
+
       margin-top: ${theme.spacings.small};
-      margin-left: ${theme.spacings.small};
     }
   `}
 `;

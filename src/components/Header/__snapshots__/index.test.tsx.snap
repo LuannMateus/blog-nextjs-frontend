@@ -36,6 +36,7 @@ exports[`<Header /> Should match with snapshot 1`] = `
 }
 
 .c0 {
+  max-width: 96rem;
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -49,8 +50,8 @@ exports[`<Header /> Should match with snapshot 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 1.6rem;
   padding-bottom: 6.4rem;
-  max-width: 96rem;
   color: #333333;
   font-size: 1.6rem;
   margin: 0 auto;
@@ -82,8 +83,8 @@ exports[`<Header /> Should match with snapshot 1`] = `
 
 @media (max-width:768px) {
   .c4 {
+    text-align: center;
     margin-top: 1.6rem;
-    margin-left: 1.6rem;
   }
 }
 

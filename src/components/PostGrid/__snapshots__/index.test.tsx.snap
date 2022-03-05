@@ -3,6 +3,7 @@
 exports[`<PostGrid /> Should match snapshot 1`] = `
 .c0 {
   max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(28rem,1fr));

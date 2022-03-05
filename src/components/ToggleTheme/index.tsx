@@ -27,10 +27,10 @@ export const ToggleTheme = () => {
 
   return (
     <Styled.Wrapper>
-      <Styled.Label>
+      <Styled.Label aria-label="Toggle light and dark modes">
         <Styled.Input
           type="checkbox"
-          value="Dark mode active"
+          value="Toggle light and dark modes"
           onChange={handleChange}
           checked={checked}
         />

@@ -8,14 +8,14 @@ exports[`<PostTemplate /> should render 1`] = `
   padding: 0 3.2rem;
 }
 
-.c11 {
+.c10 {
   line-height: 1.2;
   color: #000000;
   font-size: 2.4rem;
   text-transform: uppercase;
 }
 
-.c19 {
+.c18 {
   line-height: 1.2;
   color: #000000;
   font-size: 2.4rem;
@@ -35,7 +35,7 @@ exports[`<PostTemplate /> should render 1`] = `
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c24 .c10 {
+.c24 .c9 {
   margin: 0;
   margin-bottom: 2.4rem;
 }
@@ -194,19 +194,26 @@ exports[`<PostTemplate /> should render 1`] = `
 .c23 {
   width: 100%;
   margin: 0 auto;
-  padding: 0 3.2rem;
+  padding: 0 1.6rem;
   max-width: 96rem;
 }
 
 .c29 {
   width: 100%;
   margin: 0 auto;
-  padding: 0 3.2rem;
+  padding: 0 1.6rem;
   max-width: 80rem;
 }
 
+.c22 {
+  width: 100%;
+  padding-left: 1.6rem;
+}
+
 .c32 {
-  margin: 2.4rem 0;
+  margin: 2.4rem auto;
+  max-width: 80rem;
+  padding: 0 0 0 3.2rem;
 }
 
 .c32 span {
@@ -250,7 +257,7 @@ exports[`<PostTemplate /> should render 1`] = `
   font-size: 1.6rem;
 }
 
-.c8 {
+.c7 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
@@ -279,7 +286,7 @@ exports[`<PostTemplate /> should render 1`] = `
   z-index: 6;
 }
 
-.c13 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -293,13 +300,14 @@ exports[`<PostTemplate /> should render 1`] = `
   color: inherit;
 }
 
-.c13 > img {
+.c12 > img {
   width: 15rem;
   height: 15rem;
   border-radius: 50%;
 }
 
-.c17 {
+.c16 {
+  max-width: 96rem;
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -313,18 +321,18 @@ exports[`<PostTemplate /> should render 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 1.6rem;
   padding-bottom: 6.4rem;
-  max-width: 96rem;
   color: #333333;
   font-size: 1.6rem;
   margin: 0 auto;
 }
 
-.c17 .c10 {
+.c16 .c9 {
   margin-right: calc(1.6rem - 1rem);
 }
 
-.c18 {
+.c17 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -335,7 +343,7 @@ exports[`<PostTemplate /> should render 1`] = `
   margin-left: 2.4rem;
 }
 
-.c15 {
+.c14 {
   display: block;
   color: #FFFFFF;
   -webkit-text-decoration: none;
@@ -348,12 +356,12 @@ exports[`<PostTemplate /> should render 1`] = `
   cursor: pointer;
 }
 
-.c15:hover {
+.c14:hover {
   border-right: 0.5rem solid #dc143c;
   color: #dc143c;
 }
 
-.c6 {
+.c5 {
   width: 27rem;
   height: 100%;
   background: #000000;
@@ -366,21 +374,21 @@ exports[`<PostTemplate /> should render 1`] = `
   z-index: 1001;
 }
 
-.c6 .c12 {
+.c5 .c11 {
   margin-top: 6.4rem;
 }
 
-.c6 .c12 img {
+.c5 .c11 img {
   border: 0.5rem solid #dc143c;
 }
 
-.c6.active {
+.c5.active {
   left: 0rem;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-.c9 {
+.c8 {
   width: 100%;
   max-width: 100%;
   display: -webkit-box;
@@ -396,7 +404,7 @@ exports[`<PostTemplate /> should render 1`] = `
   align-items: center;
 }
 
-.c7 {
+.c6 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -411,7 +419,7 @@ exports[`<PostTemplate /> should render 1`] = `
   left: 2rem;
 }
 
-.c7 svg {
+.c6 svg {
   width: 3rem;
   color: #FFFFFF;
   padding-right: 3.5rem;
@@ -421,28 +429,28 @@ exports[`<PostTemplate /> should render 1`] = `
   transition: filter 300ms ease-in-out;
 }
 
-.c7 svg:hover {
+.c6 svg:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c7 .menuIcon {
+.c6 .menuIcon {
   padding: 0;
 }
 
-.c14 {
+.c13 {
   width: 90%;
   margin: 4rem 0;
 }
 
-.c1 {
+.c0 {
   position: fixed;
   top: 2rem;
   right: 2rem;
   z-index: 2;
 }
 
-.c2 {
+.c1 {
   position: relative;
   display: inline-block;
   width: 5rem;
@@ -453,7 +461,7 @@ exports[`<PostTemplate /> should render 1`] = `
   color: rgba(0,0,0,0);
 }
 
-.c3 {
+.c2 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -462,22 +470,22 @@ exports[`<PostTemplate /> should render 1`] = `
   height: 0;
 }
 
-.c3:checked + .c4 {
+.c2:checked + .c3 {
   background: #dc143c;
 }
 
-.c3:focus + .c4 {
+.c2:focus + .c3 {
   box-shadow: 0 0 1px #dc143c;
 }
 
-.c3:checked + .c4:before {
+.c2:checked + .c3:before {
   -webkit-transform: translateX(1.9rem);
   -ms-transform: translateX(1.9rem);
   transform: translateX(1.9rem);
   background: #000000;
 }
 
-.c5 {
+.c4 {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -491,7 +499,7 @@ exports[`<PostTemplate /> should render 1`] = `
   box-shadow: 0 0 1px #000000;
 }
 
-.c5:before {
+.c4:before {
   content: '';
   position: absolute;
   height: 2.1rem;
@@ -504,15 +512,12 @@ exports[`<PostTemplate /> should render 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c0 {
-  padding-left: 4px;
-}
-
-.c16 {
+.c15 {
   padding-top: 6.4rem;
+  padding-left: 20px;
 }
 
-.c20 {
+.c19 {
   margin: 0 auto;
   margin-bottom: 4.0rem;
   padding: 0 3.2rem;
@@ -532,14 +537,13 @@ exports[`<PostTemplate /> should render 1`] = `
   justify-content: center;
 }
 
-.c21 {
+.c20 {
   padding: 0.5rem 1.6rem;
 }
 
-.c22 {
+.c21 {
   max-width: 120rem;
   width: 100%;
-  margin: 0 auto;
   margin-bottom: 6.4rem;
 }
 
@@ -576,19 +580,7 @@ exports[`<PostTemplate /> should render 1`] = `
 }
 
 @media (max-width:768px) {
-  .c23 {
-    padding: 0;
-  }
-}
-
-@media (max-width:768px) {
-  .c29 {
-    padding: 0;
-  }
-}
-
-@media (max-width:768px) {
-  .c17 {
+  .c16 {
     margin: 0;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -597,20 +589,20 @@ exports[`<PostTemplate /> should render 1`] = `
 }
 
 @media (max-width:768px) {
-  .c18 {
+  .c17 {
+    text-align: center;
     margin-top: 1.6rem;
-    margin-left: 1.6rem;
   }
 }
 
 @media (max-width:768px) {
-  .c6 {
+  .c5 {
     width: 25.5rem;
   }
 }
 
 @media (max-width:768px) {
-  .c22 {
+  .c21 {
     width: 100%;
   }
 }
@@ -623,33 +615,34 @@ exports[`<PostTemplate /> should render 1`] = `
 
 <div>
   <div
-    class="c0"
+    class=""
   >
     <div
-      class="c1"
+      class="c0"
     >
       <label
-        class="c2"
+        aria-label="Toggle light and dark modes"
+        class="c1"
       >
         <input
-          class="c3"
+          class="c2"
           type="checkbox"
-          value="Dark mode active"
+          value="Toggle light and dark modes"
         />
         <span
-          class="c4 c5"
+          class="c3 c4"
         />
       </label>
     </div>
     <div
-      class="c6"
+      class="c5"
     >
       <div
-        class="c7"
+        class="c6"
       >
         <svg
           aria-label="Open menu"
-          class="c8 menuIcon"
+          class="c7 menuIcon"
           fill="currentColor"
           focusable="false"
           role="img"
@@ -670,13 +663,13 @@ exports[`<PostTemplate /> should render 1`] = `
       </div>
       <nav
         aria-hidden="true"
-        class="c9"
+        class="c8"
       >
         <h1
-          class="c10 c11"
+          class="c9 c10"
         >
           <a
-            class="c12 c13"
+            class="c11 c12"
             href="/"
             target="_self"
           >
@@ -687,10 +680,10 @@ exports[`<PostTemplate /> should render 1`] = `
           </a>
         </h1>
         <section
-          class="c14"
+          class="c13"
         >
           <a
-            class="c15"
+            class="c14"
             href="https://pt-br.reactjs.org/docs/hooks-effect.html"
             target="_blank"
           >
@@ -700,16 +693,16 @@ exports[`<PostTemplate /> should render 1`] = `
       </nav>
     </div>
     <div
-      class="c16"
+      class="c15"
     >
       <header
-        class="c17"
+        class="c16"
       >
         <h1
-          class="c10 c11"
+          class="c9 c10"
         >
           <a
-            class="c12 c13"
+            class="c11 c12"
             href="/"
             target="_self"
           >
@@ -720,10 +713,10 @@ exports[`<PostTemplate /> should render 1`] = `
           </a>
         </h1>
         <section
-          class="c18"
+          class="c17"
         >
           <h1
-            class="c10 c19"
+            class="c9 c18"
           >
             New Programming
           </h1>
@@ -734,14 +727,14 @@ exports[`<PostTemplate /> should render 1`] = `
       </header>
     </div>
     <div
-      class="c20"
+      class="c19"
     >
       <form
         action="/search/"
         method="GET"
       >
         <input
-          class="c21"
+          class="c20"
           name="q"
           placeholder="Encontre posts"
           type="search"
@@ -750,10 +743,10 @@ exports[`<PostTemplate /> should render 1`] = `
       </form>
     </div>
     <div
-      class="c22"
+      class="c21"
     >
       <section
-        class=""
+        class="c22"
       >
         <section
           class="c23"
@@ -762,7 +755,7 @@ exports[`<PostTemplate /> should render 1`] = `
             class="c24"
           >
             <h2
-              class="c10 c25"
+              class="c9 c25"
             >
               Usando Effect Hook (Hook de Efeito)
             </h2>
@@ -981,7 +974,7 @@ function Exemplo() {
     >
       <svg
         aria-hidden="true"
-        class="c8"
+        class="c7"
         fill="currentColor"
         focusable="false"
         viewBox="0 0 24 24"
