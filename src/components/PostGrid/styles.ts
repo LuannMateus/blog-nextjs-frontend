@@ -21,8 +21,12 @@ export const Wrapper = styled.main`
 
 export const NotFound = styled.p`
   ${({ theme }) => css`
-    padding: ${theme.spacings.large};
     text-align: center;
     font-size: ${theme.font.sizes.small};
+    padding: ${theme.spacings.large};
+
+    @media ${theme.media.lteSmall} {
+      padding: 0;
+    }
   `}
 `;

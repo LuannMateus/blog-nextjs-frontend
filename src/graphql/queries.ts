@@ -24,6 +24,11 @@ export const GRAPHQL_QUERY = gql`
       where: {
         slug: $postSlug
         title_contains: $postSearch
+        _or: [
+          { title_contains: $postSearch }
+          { content_contains: $postSearch }
+          { excerpt_contains: $postSearch }
+        ]
         categories: { slug: $categorySlug }
         author: { slug: $authorSlug }
         tags: { slug: $tagSlug }
