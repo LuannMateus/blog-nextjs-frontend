@@ -39,3 +39,5 @@ data.json
 
 # env
 .env
+
+.vercel
