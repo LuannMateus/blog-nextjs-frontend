@@ -2,6 +2,10 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   ${({ theme }) => css`
+    iframe[src*='ads'] {
+      display: none;
+    }
+
     width: 100%;
 
     font-size: calc(${theme.font.sizes.small} + 0.2rem);
