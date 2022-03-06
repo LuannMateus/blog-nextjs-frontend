@@ -1,71 +1,71 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PostTemplate /> should render 1`] = `
-.c33 {
+.c35 {
   max-width: 80rem;
   width: 100%;
   margin: 3.2rem auto;
   padding: 0 3.2rem;
 }
 
-.c10 {
+.c11 {
   line-height: 1.2;
   color: #000000;
   font-size: 2.4rem;
   text-transform: uppercase;
 }
 
-.c18 {
+.c19 {
   line-height: 1.2;
   color: #000000;
   font-size: 2.4rem;
   text-transform: none;
 }
 
-.c25 {
+.c26 {
   line-height: 1.2;
   color: #000000;
   font-size: 6.4rem;
   text-transform: none;
 }
 
-.c24 {
+.c25 {
   padding-bottom: 4.0rem;
   margin-bottom: 4.0rem;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c24 .c9 {
+.c25 .c10 {
   margin: 0;
   margin-bottom: 2.4rem;
 }
 
-.c26 {
+.c27 {
   font-size: 2.4rem;
   margin: 2.4rem 0;
 }
 
-.c27 {
+.c28 {
   display: block;
   max-width: 100%;
   margin-bottom: 2.4rem;
 }
 
-.c28 {
+.c29 {
   font-size: 1.6rem;
   color: #AAAAAA;
   font-style: italic;
 }
 
-.c28 .categories span::after {
+.c29 .categories span::after {
   content: ', ';
 }
 
-.c28 .categories span:last-child::after {
+.c29 .categories span:last-child::after {
   content: '';
 }
 
-.c28 a {
+.c29 a {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -73,166 +73,308 @@ exports[`<PostTemplate /> should render 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c28 a:hover {
+.c29 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c30 {
+.c31 pre[class*='language-'],
+.c31 code[class*='language-'] {
+  color: #d4d4d4;
+  font-size: 13px;
+  text-shadow: none;
+  font-family: Menlo,Monaco,Consolas,'Andale Mono','Ubuntu Mono','Courier New',monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+.c31 pre[class*='language-']::selection,
+.c31 code[class*='language-']::selection,
+.c31 pre[class*='language-'] *::selection,
+.c31 code[class*='language-'] *::selection {
+  text-shadow: none;
+  background: #75a7ca;
+}
+
+.c31 pre[class*='language-'] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  background: #1e1e1e;
+}
+
+.c31:not(pre) > code[class*='language-'] {
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
+  color: #db4c69;
+  background: #f9f2f4;
+}
+
+.c31 .namespace {
+  opacity: 0.7;
+}
+
+.c31 .token.doctype .token.doctype-tag {
+  color: #569cd6;
+}
+
+.c31 .token.doctype .token.name {
+  color: #9cdcfe;
+}
+
+.c31 .token.comment,
+.c31 .token.prolog {
+  color: #6a9955;
+}
+
+.c31 .token.punctuation,
+.c31 .language-html .language-css .token.punctuation,
+.c31 .language-html .language-javascript .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c31 .token.property,
+.c31 .token.tag,
+.c31 .token.boolean,
+.c31 .token.number,
+.c31 .token.constant,
+.c31 .token.symbol,
+.c31 .token.inserted,
+.c31 .token.unit {
+  color: #b5cea8;
+}
+
+.c31 .token.selector,
+.c31 .token.attr-name,
+.c31 .token.string,
+.c31 .token.char,
+.c31 .token.builtin,
+.c31 .token.deleted {
+  color: #ce9178;
+}
+
+.c31 .language-css .token.string.url {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c31 .token.operator,
+.c31 .token.entity {
+  color: #d4d4d4;
+}
+
+.c31 .token.operator.arrow {
+  color: #569cd6;
+}
+
+.c31 .token.atrule {
+  color: #ce9178;
+}
+
+.c31 .token.atrule .token.rule {
+  color: #c586c0;
+}
+
+.c31 .token.atrule .token.url {
+  color: #9cdcfe;
+}
+
+.c31 .token.atrule .token.url .token.function {
+  color: #dcdcaa;
+}
+
+.c31 .token.atrule .token.url .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c31 .token.keyword {
+  color: #569cd6;
+}
+
+.c31 .token.keyword.module,
+.c31 .token.keyword.control-flow {
+  color: #c586c0;
+}
+
+.c31 .token.function,
+.c31 .token.function .token.maybe-class-name {
+  color: #dcdcaa;
+}
+
+.c31 .token.regex {
+  color: #d16969;
+}
+
+.c31 .token.important {
+  color: #569cd6;
+}
+
+.c31 .token.italic {
+  font-style: italic;
+}
+
+.c31 .token.constant {
+  color: #9cdcfe;
+}
+
+.c31 .token.class-name,
+.c31 .token.maybe-class-name {
+  color: #4ec9b0;
+}
+
+.c31 .token.console {
+  color: #9cdcfe;
+}
+
+.c31 .token.parameter {
+  color: #9cdcfe;
+}
+
+.c31 .token.interpolation {
+  color: #9cdcfe;
+}
+
+.c31 .token.punctuation.interpolation-punctuation {
+  color: #569cd6;
+}
+
+.c31 .token.boolean {
+  color: #569cd6;
+}
+
+.c31 .token.property,
+.c31 .token.variable,
+.c31 .token.imports .token.maybe-class-name,
+.c31 .token.exports .token.maybe-class-name {
+  color: #9cdcfe;
+}
+
+.c31 .token.selector {
+  color: #d7ba7d;
+}
+
+.c31 .token.escape {
+  color: #d7ba7d;
+}
+
+.c31 .token.tag {
+  color: #569cd6;
+}
+
+.c31 .token.tag .token.punctuation {
+  color: #808080;
+}
+
+.c31 .token.cdata {
+  color: #808080;
+}
+
+.c31 .token.attr-name {
+  color: #9cdcfe;
+}
+
+.c31 .token.attr-value,
+.c31 .token.attr-value .token.punctuation {
+  color: #ce9178;
+}
+
+.c31 .token.attr-value .token.punctuation.attr-equals {
+  color: #d4d4d4;
+}
+
+.c31 .token.entity {
+  color: #569cd6;
+}
+
+.c31 .token.namespace {
+  color: #4ec9b0;
+}
+
+.c31 pre[class*='language-javascript'],
+.c31 code[class*='language-javascript'],
+.c31 pre[class*='language-jsx'],
+.c31 code[class*='language-jsx'],
+.c31 pre[class*='language-typescript'],
+.c31 code[class*='language-typescript'],
+.c31 pre[class*='language-tsx'],
+.c31 code[class*='language-tsx'] {
+  color: #9cdcfe;
+}
+
+.c31 pre[class*='language-css'],
+.c31 code[class*='language-css'] {
+  color: #ce9178;
+}
+
+.c31 pre[class*='language-html'],
+.c31 code[class*='language-html'] {
+  color: #d4d4d4;
+}
+
+.c31 .language-regex .token.anchor {
+  color: #dcdcaa;
+}
+
+.c31 .language-html .token.punctuation {
+  color: #808080;
+}
+
+.c31 pre[data-line] {
+  position: relative;
+}
+
+.c31 pre[class*='language-'] > code[class*='language-'] {
+  position: relative;
+  z-index: 1;
+}
+
+.c31 .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: #f7ebc6;
+  box-shadow: inset 5px 0 0 #f7d87c;
+  z-index: 0;
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+.c32 {
   width: 100%;
   font-size: calc(1.6rem + 0.2rem);
   line-height: 1.5;
 }
 
-.c30 p {
+.c32 iframe[src*='ads'] {
+  display: none;
+}
+
+.c32 p {
   width: 100%;
   margin: 2.4rem 0;
   word-wrap: break-word;
 }
 
-.c30 a,
-.c30 a:visited,
-.c30 a:link {
-  color: #dc143c;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.c30 a:hover {
-  -webkit-filter: brightness(50%);
-  filter: brightness(50%);
-}
-
-.c30 code {
-  font-family: monospace;
-  color: #dc143c;
-  font-size: 1.6rem;
-  background: #DDDDDD;
-  padding: 0.2rem;
-  margin: 0.2rem;
-}
-
-.c30 pre {
-  background: #000000;
-  padding: 2.4rem;
-  font-family: monospace;
-  color: #FFFFFF;
-  margin: 2.4rem 0;
-  overflow-x: auto;
-  font-size: 1.6rem;
-}
-
-.c30 pre code {
-  color: inherit;
-  background: inherit;
-}
-
-.c30 img {
-  max-width: 100%;
-}
-
-.c30 .image {
-  background: #DDDDDD;
-  line-height: 0;
-  margin: 2.4rem 0;
-}
-
-.c30 .image figcaption {
-  font-size: 1.6rem;
-  padding: 1.6rem 0;
-  text-align: center;
-  line-height: 1.3;
-  margin: 2.4rem 0;
-}
-
-.c30 .image-style-side {
-  max-width: 50%;
-  float: right;
-  margin: 2.4rem;
-}
-
-.c30 hr {
-  border: none;
-  border: 1px solid red;
-  border-bottom: 0.1rem solid #DDDDDD;
-}
-
-.c30 ul,
-.c30 ol {
-  margin: 2.4rem 4.0rem;
-}
-
-.c30 .table {
-  width: 100%;
-  overflow: hidden;
-  overflow-x: auto;
-}
-
-.c30 table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.c30 table td,
-.c30 table th {
-  padding: 1.6rem;
-  border: 0.1rem solid #DDDDDD;
-}
-
-.c30 blockquote {
-  border-left: 0.5rem solid #dc143c;
-  color: #AAAAAA;
-  -webkit-filter: brightness(80%);
-  filter: brightness(80%);
-  padding-left: 2.4rem;
-  font-style: italic;
-  margin: 2.4rem;
-}
-
-.c23 {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 1.6rem;
-  max-width: 96rem;
-}
-
-.c29 {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 1.6rem;
-  max-width: 80rem;
-}
-
-.c22 {
-  width: 100%;
-  padding-left: 1.6rem;
-}
-
-.c32 {
-  margin: 2.4rem auto;
-  max-width: 80rem;
-  padding: 0 0 0 3.2rem;
-}
-
-.c32 span {
-  margin: 0 0 0 0.5rem;
-}
-
-.c32 span::before {
-  content: ' ';
-}
-
-.c32 span::after {
-  content: ', ';
-}
-
-.c32 span:last-child::after {
-  content: '';
-}
-
-.c32 a {
+.c32 a,
+.c32 a:visited,
+.c32 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -245,25 +387,165 @@ exports[`<PostTemplate /> should render 1`] = `
   filter: brightness(50%);
 }
 
-.c35 {
+.c32 code {
+  font-family: monospace;
+  color: #dc143c;
+  font-size: 1.6rem;
+  background: #DDDDDD;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.c32 pre {
+  background: #000000;
+  padding: 2.4rem;
+  font-family: monospace;
+  color: #FFFFFF;
+  margin: 2.4rem 0;
+  overflow-x: auto;
+  font-size: 1.6rem;
+}
+
+.c32 pre code {
+  color: inherit;
+  background: inherit;
+}
+
+.c32 img {
+  max-width: 100%;
+}
+
+.c32 .image {
+  background: #DDDDDD;
+  line-height: 0;
+  margin: 2.4rem 0;
+}
+
+.c32 .image figcaption {
+  font-size: 1.6rem;
+  padding: 1.6rem 0;
+  text-align: center;
+  line-height: 1.3;
+  margin: 2.4rem 0;
+}
+
+.c32 .image-style-side {
+  max-width: 50%;
+  float: right;
+  margin: 2.4rem;
+}
+
+.c32 hr {
+  border: none;
+  border: 1px solid red;
+  border-bottom: 0.1rem solid #DDDDDD;
+}
+
+.c32 ul,
+.c32 ol {
+  margin: 2.4rem 4.0rem;
+}
+
+.c32 .table {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.c32 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.c32 table td,
+.c32 table th {
+  padding: 1.6rem;
+  border: 0.1rem solid #DDDDDD;
+}
+
+.c32 blockquote {
+  border-left: 0.5rem solid #dc143c;
+  color: #AAAAAA;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  padding-left: 2.4rem;
+  font-style: italic;
+  margin: 2.4rem;
+}
+
+.c24 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+  max-width: 96rem;
+}
+
+.c30 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+  max-width: 80rem;
+}
+
+.c23 {
+  width: 100%;
+  padding-left: 1.6rem;
+}
+
+.c34 {
+  margin: 2.4rem auto;
+  max-width: 80rem;
+  padding: 0 0 0 3.2rem;
+}
+
+.c34 span {
+  margin: 0 0 0 0.5rem;
+}
+
+.c34 span::before {
+  content: ' ';
+}
+
+.c34 span::after {
+  content: ', ';
+}
+
+.c34 span:last-child::after {
+  content: '';
+}
+
+.c34 a {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c34 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c37 {
   width: 100%;
   text-align: center;
 }
 
-.c35 a {
+.c37 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1.6rem;
 }
 
-.c7 {
+.c8 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
 }
 
-.c36 {
+.c38 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -286,7 +568,7 @@ exports[`<PostTemplate /> should render 1`] = `
   z-index: 6;
 }
 
-.c12 {
+.c13 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -300,13 +582,13 @@ exports[`<PostTemplate /> should render 1`] = `
   color: inherit;
 }
 
-.c12 > img {
+.c13 > img {
   width: 15rem;
   height: 15rem;
   border-radius: 50%;
 }
 
-.c16 {
+.c17 {
   max-width: 96rem;
   width: 100%;
   display: -webkit-box;
@@ -328,11 +610,11 @@ exports[`<PostTemplate /> should render 1`] = `
   margin: 0 auto;
 }
 
-.c16 .c9 {
+.c17 .c10 {
   margin-right: calc(1.6rem - 1rem);
 }
 
-.c17 {
+.c18 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -343,7 +625,7 @@ exports[`<PostTemplate /> should render 1`] = `
   margin-left: 2.4rem;
 }
 
-.c14 {
+.c15 {
   display: block;
   color: #FFFFFF;
   -webkit-text-decoration: none;
@@ -356,12 +638,12 @@ exports[`<PostTemplate /> should render 1`] = `
   cursor: pointer;
 }
 
-.c14:hover {
+.c15:hover {
   border-right: 0.5rem solid #dc143c;
   color: #dc143c;
 }
 
-.c5 {
+.c6 {
   width: 27rem;
   height: 100%;
   background: #000000;
@@ -374,21 +656,21 @@ exports[`<PostTemplate /> should render 1`] = `
   z-index: 1001;
 }
 
-.c5 .c11 {
+.c6 .c12 {
   margin-top: 6.4rem;
 }
 
-.c5 .c11 img {
+.c6 .c12 img {
   border: 0.5rem solid #dc143c;
 }
 
-.c5.active {
+.c6.active {
   left: 0rem;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-.c8 {
+.c9 {
   width: 100%;
   max-width: 100%;
   display: -webkit-box;
@@ -404,7 +686,7 @@ exports[`<PostTemplate /> should render 1`] = `
   align-items: center;
 }
 
-.c6 {
+.c7 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -419,7 +701,7 @@ exports[`<PostTemplate /> should render 1`] = `
   left: 2rem;
 }
 
-.c6 svg {
+.c7 svg {
   width: 3rem;
   color: #FFFFFF;
   padding-right: 3.5rem;
@@ -429,28 +711,28 @@ exports[`<PostTemplate /> should render 1`] = `
   transition: filter 300ms ease-in-out;
 }
 
-.c6 svg:hover {
+.c7 svg:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c6 .menuIcon {
+.c7 .menuIcon {
   padding: 0;
 }
 
-.c13 {
+.c14 {
   width: 90%;
   margin: 4rem 0;
 }
 
-.c0 {
+.c1 {
   position: fixed;
   top: 2rem;
   right: 2rem;
   z-index: 2;
 }
 
-.c1 {
+.c2 {
   position: relative;
   display: inline-block;
   width: 5rem;
@@ -461,7 +743,7 @@ exports[`<PostTemplate /> should render 1`] = `
   color: rgba(0,0,0,0);
 }
 
-.c2 {
+.c3 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -470,22 +752,22 @@ exports[`<PostTemplate /> should render 1`] = `
   height: 0;
 }
 
-.c2:checked + .c3 {
+.c3:checked + .c4 {
   background: #dc143c;
 }
 
-.c2:focus + .c3 {
+.c3:focus + .c4 {
   box-shadow: 0 0 1px #dc143c;
 }
 
-.c2:checked + .c3:before {
+.c3:checked + .c4:before {
   -webkit-transform: translateX(1.9rem);
   -ms-transform: translateX(1.9rem);
   transform: translateX(1.9rem);
   background: #000000;
 }
 
-.c4 {
+.c5 {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -499,7 +781,7 @@ exports[`<PostTemplate /> should render 1`] = `
   box-shadow: 0 0 1px #000000;
 }
 
-.c4:before {
+.c5:before {
   content: '';
   position: absolute;
   height: 2.1rem;
@@ -512,12 +794,23 @@ exports[`<PostTemplate /> should render 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c15 {
+.c0 svg.search-ok-icon,
+.c0 svg.search-cancel-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-left: 1rem;
+}
+
+.c0 svg.search-cancel-icon {
+  color: #dc143c;
+}
+
+.c16 {
   padding-top: 6.4rem;
   padding-left: 20px;
 }
 
-.c19 {
+.c20 {
   margin: 0 auto;
   margin-bottom: 4.0rem;
   padding: 0 3.2rem;
@@ -537,42 +830,53 @@ exports[`<PostTemplate /> should render 1`] = `
   justify-content: center;
 }
 
-.c20 {
+.c21 {
   padding: 0.5rem 1.6rem;
 }
 
-.c21 {
+.c21:disabled {
+  outline: 0.1rem solid #dc143c;
+}
+
+.c22 {
   max-width: 120rem;
   width: 100%;
   margin-bottom: 6.4rem;
 }
 
-.c34 {
+.c36 {
   width: 100%;
   margin: 0 auto;
   padding: 0;
 }
 
-.c31 {
+.c33 {
   padding: 0 3.2rem;
 }
 
 @media (max-width:768px) {
-  .c25 {
+  .c26 {
     font-size: 4.0rem;
   }
 }
 
+@media print {
+  .c31 pre[class*='language-'],
+  .c31 code[class*='language-'] {
+    text-shadow: none;
+  }
+}
+
 @media (max-width:768px) {
-  .c30 {
+  .c32 {
     font-size: 2rem;
   }
 
-  .c30 pre {
+  .c32 pre {
     width: 82%;
   }
 
-  .c30 .image-style-side {
+  .c32 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
@@ -580,7 +884,7 @@ exports[`<PostTemplate /> should render 1`] = `
 }
 
 @media (max-width:768px) {
-  .c16 {
+  .c17 {
     margin: 0;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -589,60 +893,60 @@ exports[`<PostTemplate /> should render 1`] = `
 }
 
 @media (max-width:768px) {
-  .c17 {
+  .c18 {
     text-align: center;
     margin-top: 1.6rem;
   }
 }
 
 @media (max-width:768px) {
-  .c5 {
+  .c6 {
     width: 25.5rem;
   }
 }
 
 @media (max-width:768px) {
-  .c21 {
+  .c22 {
     width: 100%;
   }
 }
 
 @media (max-width:768px) {
-  .c31 {
+  .c33 {
     padding-left: 2px;
   }
 }
 
 <div>
   <div
-    class=""
+    class="c0"
   >
     <div
-      class="c0"
+      class="c1"
     >
       <label
         aria-label="Toggle light and dark modes"
-        class="c1"
+        class="c2"
       >
         <input
-          class="c2"
+          class="c3"
           type="checkbox"
           value="Toggle light and dark modes"
         />
         <span
-          class="c3 c4"
+          class="c4 c5"
         />
       </label>
     </div>
     <div
-      class="c5"
+      class="c6"
     >
       <div
-        class="c6"
+        class="c7"
       >
         <svg
           aria-label="Open menu"
-          class="c7 menuIcon"
+          class="c8 menuIcon"
           fill="currentColor"
           focusable="false"
           role="img"
@@ -663,13 +967,13 @@ exports[`<PostTemplate /> should render 1`] = `
       </div>
       <nav
         aria-hidden="true"
-        class="c8"
+        class="c9"
       >
         <h1
-          class="c9 c10"
+          class="c10 c11"
         >
           <a
-            class="c11 c12"
+            class="c12 c13"
             href="/"
             target="_self"
           >
@@ -680,10 +984,10 @@ exports[`<PostTemplate /> should render 1`] = `
           </a>
         </h1>
         <section
-          class="c13"
+          class="c14"
         >
           <a
-            class="c14"
+            class="c15"
             href="https://pt-br.reactjs.org/docs/hooks-effect.html"
             target="_blank"
           >
@@ -693,16 +997,16 @@ exports[`<PostTemplate /> should render 1`] = `
       </nav>
     </div>
     <div
-      class="c15"
+      class="c16"
     >
       <header
-        class="c16"
+        class="c17"
       >
         <h1
-          class="c9 c10"
+          class="c10 c11"
         >
           <a
-            class="c11 c12"
+            class="c12 c13"
             href="/"
             target="_self"
           >
@@ -713,10 +1017,10 @@ exports[`<PostTemplate /> should render 1`] = `
           </a>
         </h1>
         <section
-          class="c17"
+          class="c18"
         >
           <h1
-            class="c9 c18"
+            class="c10 c19"
           >
             New Programming
           </h1>
@@ -727,50 +1031,62 @@ exports[`<PostTemplate /> should render 1`] = `
       </header>
     </div>
     <div
-      class="c19"
+      class="c20"
     >
-      <form
-        action="/search/"
-        method="GET"
+      <input
+        class="c21"
+        name="q"
+        placeholder="Encontre posts"
+        type="search"
+        value=""
+      />
+      <svg
+        aria-hidden="true"
+        aria-label="Input enabled"
+        class="c8 search-ok-icon"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <input
-          class="c20"
-          name="q"
-          placeholder="Encontre posts"
-          type="search"
-          value=""
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
         />
-      </form>
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4 8-8z"
+        />
+      </svg>
     </div>
     <div
-      class="c21"
+      class="c22"
     >
       <section
-        class="c22"
+        class="c23"
       >
         <section
-          class="c23"
+          class="c24"
         >
           <section
-            class="c24"
+            class="c25"
           >
             <h2
-              class="c9 c25"
+              class="c10 c26"
             >
               Usando Effect Hook (Hook de Efeito)
             </h2>
             <p
-              class="c26"
+              class="c27"
             >
               O Effect Hook (Hook de Efeito) te permite executar efeitos colaterais em componentes funcionais.
             </p>
             <img
               alt="Usando Effect Hook (Hook de Efeito)"
-              class="c27"
+              class="c28"
               src="https://res.cloudinary.com/project-cdn/image/upload/v1643992684/use_Effect_hook_62405844a5.png"
             />
             <div
-              class="c28"
+              class="c29"
             >
               <p>
                 <span>
@@ -810,31 +1126,37 @@ exports[`<PostTemplate /> should render 1`] = `
           </section>
         </section>
         <section
-          class="c29"
+          class="c30"
         >
           <div
-            class="c30"
+            class="c31"
           >
-            <p>
-              <span
-                style="color:rgb(0,0,0);"
-              >
-                O 
-              </span>
-              <i>
-                Effect Hook
-              </i>
-              <span
-                style="color:rgb(0,0,0);"
-              >
-                 (Hook de Efeito) te permite executar efeitos colaterais em componentes funcionais:
-              </span>
-            </p>
-            <pre>
-              <code
+            <div
+              class="c32"
+            >
+              <p>
+                <span
+                  style="color:rgb(0,0,0);"
+                >
+                  O 
+                </span>
+                <i>
+                  Effect Hook
+                </i>
+                <span
+                  style="color:rgb(0,0,0);"
+                >
+                   (Hook de Efeito) te permite executar efeitos colaterais em componentes funcionais:
+                </span>
+              </p>
+              <pre
                 class="language-plaintext"
+                tabindex="0"
               >
-                import React, { useState, useEffect } from 'react';
+                <code
+                  class="language-plaintext"
+                >
+                  import React, { useState, useEffect } from 'react';
 function Exemplo() {
   const [count, setCount] = useState(0);
 
@@ -848,90 +1170,91 @@ function Exemplo() {
     &lt;/div&gt;
   );
 }
-              </code>
-            </pre>
-            <p>
-               
-            </p>
-            <p
-              style="margin-left:0px;"
-            >
-              Esse trecho de código é baseado no 
-              <a
-                href="https://pt-br.reactjs.org/docs/hooks-state.html"
+                </code>
+              </pre>
+              <p>
+                 
+              </p>
+              <p
+                style="margin-left:0px;"
               >
-                exemplo de contador da página anterior
-              </a>
-              , mas nós adicionamos uma nova funcionalidade a ele: nós definimos o titulo do documento para ser uma mensagem customizada que inclua o número de cliques.
-            </p>
-            <p
-              style="margin-left:0px;"
-            >
-              Buscar dados, configurar uma subscription, e mudar o DOM manualmente dentro dos componentes React são exemplos de efeitos colaterais. Esteja você acostumado ou não a chamar essas operações de “efeitos colaterais” (ou somente “efeitos”), você provavelmente já usou eles em seus componentes antes.
-            </p>
-            <p
-              style="margin-left:0px;"
-            >
-               
-            </p>
-            <p
-              style="margin-left:0px;"
-            >
-              <strong>
-                Dica
-              </strong>
-            </p>
-            <p
-              style="margin-left:0px;"
-            >
-              Se você está familiarizado com os métodos do ciclo de vida do React, você pode pensar no Hook 
-              <code>
-                useEffect
-              </code>
-               como 
-              <code>
-                componentDidMount
-              </code>
-              , 
-              <code>
-                componentDidUpdate
-              </code>
-              , e 
-              <code>
-                componentWillUnmount
-              </code>
-               combinados.
-            </p>
-            <p
-              style="margin-left:0px;"
-            >
-               
-            </p>
-            <p
-              style="margin-left:0px;"
-            >
-              Existem dois tipos comuns de efeitos colaterais nos componentes React: aqueles que não precisam de limpeza, e aqueles que precisam. Vamos ver as suas diferenças mais detalhadamente.
-            </p>
-            <h2
-              style="margin-left:0px;"
-            >
-               
-            </h2>
-            <figure
-              class="media"
-            >
-              <oembed
-                url="https://www.youtube.com/watch?v=jcc9T-5inrk"
-              />
-            </figure>
+                Esse trecho de código é baseado no 
+                <a
+                  href="https://pt-br.reactjs.org/docs/hooks-state.html"
+                >
+                  exemplo de contador da página anterior
+                </a>
+                , mas nós adicionamos uma nova funcionalidade a ele: nós definimos o titulo do documento para ser uma mensagem customizada que inclua o número de cliques.
+              </p>
+              <p
+                style="margin-left:0px;"
+              >
+                Buscar dados, configurar uma subscription, e mudar o DOM manualmente dentro dos componentes React são exemplos de efeitos colaterais. Esteja você acostumado ou não a chamar essas operações de “efeitos colaterais” (ou somente “efeitos”), você provavelmente já usou eles em seus componentes antes.
+              </p>
+              <p
+                style="margin-left:0px;"
+              >
+                 
+              </p>
+              <p
+                style="margin-left:0px;"
+              >
+                <strong>
+                  Dica
+                </strong>
+              </p>
+              <p
+                style="margin-left:0px;"
+              >
+                Se você está familiarizado com os métodos do ciclo de vida do React, você pode pensar no Hook 
+                <code>
+                  useEffect
+                </code>
+                 como 
+                <code>
+                  componentDidMount
+                </code>
+                , 
+                <code>
+                  componentDidUpdate
+                </code>
+                , e 
+                <code>
+                  componentWillUnmount
+                </code>
+                 combinados.
+              </p>
+              <p
+                style="margin-left:0px;"
+              >
+                 
+              </p>
+              <p
+                style="margin-left:0px;"
+              >
+                Existem dois tipos comuns de efeitos colaterais nos componentes React: aqueles que não precisam de limpeza, e aqueles que precisam. Vamos ver as suas diferenças mais detalhadamente.
+              </p>
+              <h2
+                style="margin-left:0px;"
+              >
+                 
+              </h2>
+              <figure
+                class="media"
+              >
+                <oembed
+                  url="https://www.youtube.com/watch?v=jcc9T-5inrk"
+                />
+              </figure>
+            </div>
           </div>
         </section>
       </section>
       <div
-        class="c31"
+        class="c33"
       >
         <div
-          class="c32"
+          class="c34"
         >
           tags:
           <span>
@@ -944,7 +1267,7 @@ function Exemplo() {
         </div>
       </div>
       <div
-        class="c33"
+        class="c35"
       >
         <div
           id="disqus_thread"
@@ -952,29 +1275,33 @@ function Exemplo() {
       </div>
     </div>
     <div
-      class="c34"
+      class="c36"
     >
       <footer
-        class="c35"
+        class="c37"
       >
         <div
-          class="c30"
+          class="c31"
         >
-          <p>
-            A footer paragraph
-          </p>
+          <div
+            class="c32"
+          >
+            <p>
+              A footer paragraph
+            </p>
+          </div>
         </div>
       </footer>
     </div>
     <a
       aria-label="Go to top"
-      class="c36"
+      class="c38"
       href="#"
       title="Go to top"
     >
       <svg
         aria-hidden="true"
-        class="c7"
+        class="c8"
         fill="currentColor"
         focusable="false"
         viewBox="0 0 24 24"

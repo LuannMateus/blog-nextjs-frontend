@@ -12,14 +12,20 @@ exports[`<PostGrid /> Should match snapshot 1`] = `
 }
 
 .c1 {
-  padding: 3.2rem;
   text-align: center;
   font-size: 1.6rem;
+  padding: 3.2rem;
 }
 
 @media (max-width:360px) {
   .c0 {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:360px) {
+  .c1 {
+    padding: 0;
   }
 }
 

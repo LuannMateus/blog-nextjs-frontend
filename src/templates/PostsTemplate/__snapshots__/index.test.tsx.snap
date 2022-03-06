@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PostTemplate /> Should match snapshot 1`] = `
-.c26 {
+.c27 {
   width: 16rem;
   border: 1px solid #333333;
   background: #000000;
@@ -24,36 +24,36 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   transition: filter 300ms ease-in-out;
 }
 
-.c26:hover {
+.c27:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c26:disabled {
+.c27:disabled {
   opacity: 0.4;
 }
 
-.c10 {
+.c11 {
   line-height: 1.2;
   color: #000000;
   font-size: 2.4rem;
   text-transform: uppercase;
 }
 
-.c18 {
+.c19 {
   line-height: 1.2;
   color: #000000;
   font-size: 2.4rem;
   text-transform: none;
 }
 
-.c23 .c9 {
+.c24 .c10 {
   margin: 0;
   margin-top: calc(1.6rem - 0.6rem);
   margin-bottom: 1.6rem;
 }
 
-.c23 a {
+.c24 a {
   -webkit-text-decoration: none;
   text-decoration: none;
   color: inherit;
@@ -61,29 +61,29 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c23 img {
+.c24 img {
   -webkit-transition: filter 300ms ease-in-out;
   transition: filter 300ms ease-in-out;
   width: 100%;
   max-width: 100%;
 }
 
-.c23:hover a {
+.c24:hover a {
   color: #dc143c;
 }
 
-.c23:hover img {
+.c24:hover img {
   -webkit-filter: brightness(80%);
   filter: brightness(80%);
 }
 
-.c24 {
+.c25 {
   max-width: 100%;
   -webkit-transition: opacity 300ms ease-in-out;
   transition: opacity 300ms ease-in-out;
 }
 
-.c22 {
+.c23 {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
@@ -93,33 +93,315 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   padding: 3.2rem;
 }
 
-.c28 {
+.c29 {
   width: 100%;
   text-align: center;
 }
 
-.c28 a {
+.c29 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1.6rem;
 }
 
-.c29 {
+.c30 pre[class*='language-'],
+.c30 code[class*='language-'] {
+  color: #d4d4d4;
+  font-size: 13px;
+  text-shadow: none;
+  font-family: Menlo,Monaco,Consolas,'Andale Mono','Ubuntu Mono','Courier New',monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+.c30 pre[class*='language-']::selection,
+.c30 code[class*='language-']::selection,
+.c30 pre[class*='language-'] *::selection,
+.c30 code[class*='language-'] *::selection {
+  text-shadow: none;
+  background: #75a7ca;
+}
+
+.c30 pre[class*='language-'] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  background: #1e1e1e;
+}
+
+.c30:not(pre) > code[class*='language-'] {
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
+  color: #db4c69;
+  background: #f9f2f4;
+}
+
+.c30 .namespace {
+  opacity: 0.7;
+}
+
+.c30 .token.doctype .token.doctype-tag {
+  color: #569cd6;
+}
+
+.c30 .token.doctype .token.name {
+  color: #9cdcfe;
+}
+
+.c30 .token.comment,
+.c30 .token.prolog {
+  color: #6a9955;
+}
+
+.c30 .token.punctuation,
+.c30 .language-html .language-css .token.punctuation,
+.c30 .language-html .language-javascript .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c30 .token.property,
+.c30 .token.tag,
+.c30 .token.boolean,
+.c30 .token.number,
+.c30 .token.constant,
+.c30 .token.symbol,
+.c30 .token.inserted,
+.c30 .token.unit {
+  color: #b5cea8;
+}
+
+.c30 .token.selector,
+.c30 .token.attr-name,
+.c30 .token.string,
+.c30 .token.char,
+.c30 .token.builtin,
+.c30 .token.deleted {
+  color: #ce9178;
+}
+
+.c30 .language-css .token.string.url {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c30 .token.operator,
+.c30 .token.entity {
+  color: #d4d4d4;
+}
+
+.c30 .token.operator.arrow {
+  color: #569cd6;
+}
+
+.c30 .token.atrule {
+  color: #ce9178;
+}
+
+.c30 .token.atrule .token.rule {
+  color: #c586c0;
+}
+
+.c30 .token.atrule .token.url {
+  color: #9cdcfe;
+}
+
+.c30 .token.atrule .token.url .token.function {
+  color: #dcdcaa;
+}
+
+.c30 .token.atrule .token.url .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c30 .token.keyword {
+  color: #569cd6;
+}
+
+.c30 .token.keyword.module,
+.c30 .token.keyword.control-flow {
+  color: #c586c0;
+}
+
+.c30 .token.function,
+.c30 .token.function .token.maybe-class-name {
+  color: #dcdcaa;
+}
+
+.c30 .token.regex {
+  color: #d16969;
+}
+
+.c30 .token.important {
+  color: #569cd6;
+}
+
+.c30 .token.italic {
+  font-style: italic;
+}
+
+.c30 .token.constant {
+  color: #9cdcfe;
+}
+
+.c30 .token.class-name,
+.c30 .token.maybe-class-name {
+  color: #4ec9b0;
+}
+
+.c30 .token.console {
+  color: #9cdcfe;
+}
+
+.c30 .token.parameter {
+  color: #9cdcfe;
+}
+
+.c30 .token.interpolation {
+  color: #9cdcfe;
+}
+
+.c30 .token.punctuation.interpolation-punctuation {
+  color: #569cd6;
+}
+
+.c30 .token.boolean {
+  color: #569cd6;
+}
+
+.c30 .token.property,
+.c30 .token.variable,
+.c30 .token.imports .token.maybe-class-name,
+.c30 .token.exports .token.maybe-class-name {
+  color: #9cdcfe;
+}
+
+.c30 .token.selector {
+  color: #d7ba7d;
+}
+
+.c30 .token.escape {
+  color: #d7ba7d;
+}
+
+.c30 .token.tag {
+  color: #569cd6;
+}
+
+.c30 .token.tag .token.punctuation {
+  color: #808080;
+}
+
+.c30 .token.cdata {
+  color: #808080;
+}
+
+.c30 .token.attr-name {
+  color: #9cdcfe;
+}
+
+.c30 .token.attr-value,
+.c30 .token.attr-value .token.punctuation {
+  color: #ce9178;
+}
+
+.c30 .token.attr-value .token.punctuation.attr-equals {
+  color: #d4d4d4;
+}
+
+.c30 .token.entity {
+  color: #569cd6;
+}
+
+.c30 .token.namespace {
+  color: #4ec9b0;
+}
+
+.c30 pre[class*='language-javascript'],
+.c30 code[class*='language-javascript'],
+.c30 pre[class*='language-jsx'],
+.c30 code[class*='language-jsx'],
+.c30 pre[class*='language-typescript'],
+.c30 code[class*='language-typescript'],
+.c30 pre[class*='language-tsx'],
+.c30 code[class*='language-tsx'] {
+  color: #9cdcfe;
+}
+
+.c30 pre[class*='language-css'],
+.c30 code[class*='language-css'] {
+  color: #ce9178;
+}
+
+.c30 pre[class*='language-html'],
+.c30 code[class*='language-html'] {
+  color: #d4d4d4;
+}
+
+.c30 .language-regex .token.anchor {
+  color: #dcdcaa;
+}
+
+.c30 .language-html .token.punctuation {
+  color: #808080;
+}
+
+.c30 pre[data-line] {
+  position: relative;
+}
+
+.c30 pre[class*='language-'] > code[class*='language-'] {
+  position: relative;
+  z-index: 1;
+}
+
+.c30 .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: #f7ebc6;
+  box-shadow: inset 5px 0 0 #f7d87c;
+  z-index: 0;
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+.c31 {
   width: 100%;
   font-size: calc(1.6rem + 0.2rem);
   line-height: 1.5;
 }
 
-.c29 p {
+.c31 iframe[src*='ads'] {
+  display: none;
+}
+
+.c31 p {
   width: 100%;
   margin: 2.4rem 0;
   word-wrap: break-word;
 }
 
-.c29 a,
-.c29 a:visited,
-.c29 a:link {
+.c31 a,
+.c31 a:visited,
+.c31 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -127,12 +409,12 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c29 a:hover {
+.c31 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c29 code {
+.c31 code {
   font-family: monospace;
   color: #dc143c;
   font-size: 1.6rem;
@@ -141,7 +423,7 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   margin: 0.2rem;
 }
 
-.c29 pre {
+.c31 pre {
   background: #000000;
   padding: 2.4rem;
   font-family: monospace;
@@ -151,22 +433,22 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   font-size: 1.6rem;
 }
 
-.c29 pre code {
+.c31 pre code {
   color: inherit;
   background: inherit;
 }
 
-.c29 img {
+.c31 img {
   max-width: 100%;
 }
 
-.c29 .image {
+.c31 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c29 .image figcaption {
+.c31 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem 0;
   text-align: center;
@@ -174,41 +456,41 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   margin: 2.4rem 0;
 }
 
-.c29 .image-style-side {
+.c31 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem;
 }
 
-.c29 hr {
+.c31 hr {
   border: none;
   border: 1px solid red;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c29 ul,
-.c29 ol {
+.c31 ul,
+.c31 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c29 .table {
+.c31 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c29 table {
+.c31 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.c29 table td,
-.c29 table th {
+.c31 table td,
+.c31 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c29 blockquote {
+.c31 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -218,13 +500,13 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   margin: 2.4rem;
 }
 
-.c7 {
+.c8 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
 }
 
-.c30 {
+.c32 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -247,7 +529,7 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   z-index: 6;
 }
 
-.c12 {
+.c13 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -261,13 +543,13 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   color: inherit;
 }
 
-.c12 > img {
+.c13 > img {
   width: 15rem;
   height: 15rem;
   border-radius: 50%;
 }
 
-.c16 {
+.c17 {
   max-width: 96rem;
   width: 100%;
   display: -webkit-box;
@@ -289,11 +571,11 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   margin: 0 auto;
 }
 
-.c16 .c9 {
+.c17 .c10 {
   margin-right: calc(1.6rem - 1rem);
 }
 
-.c17 {
+.c18 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -304,7 +586,7 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   margin-left: 2.4rem;
 }
 
-.c14 {
+.c15 {
   display: block;
   color: #FFFFFF;
   -webkit-text-decoration: none;
@@ -317,12 +599,12 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   cursor: pointer;
 }
 
-.c14:hover {
+.c15:hover {
   border-right: 0.5rem solid #dc143c;
   color: #dc143c;
 }
 
-.c5 {
+.c6 {
   width: 27rem;
   height: 100%;
   background: #000000;
@@ -335,21 +617,21 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   z-index: 1001;
 }
 
-.c5 .c11 {
+.c6 .c12 {
   margin-top: 6.4rem;
 }
 
-.c5 .c11 img {
+.c6 .c12 img {
   border: 0.5rem solid #dc143c;
 }
 
-.c5.active {
+.c6.active {
   left: 0rem;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-.c8 {
+.c9 {
   width: 100%;
   max-width: 100%;
   display: -webkit-box;
@@ -365,7 +647,7 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   align-items: center;
 }
 
-.c6 {
+.c7 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -380,7 +662,7 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   left: 2rem;
 }
 
-.c6 svg {
+.c7 svg {
   width: 3rem;
   color: #FFFFFF;
   padding-right: 3.5rem;
@@ -390,28 +672,28 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   transition: filter 300ms ease-in-out;
 }
 
-.c6 svg:hover {
+.c7 svg:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c6 .menuIcon {
+.c7 .menuIcon {
   padding: 0;
 }
 
-.c13 {
+.c14 {
   width: 90%;
   margin: 4rem 0;
 }
 
-.c0 {
+.c1 {
   position: fixed;
   top: 2rem;
   right: 2rem;
   z-index: 2;
 }
 
-.c1 {
+.c2 {
   position: relative;
   display: inline-block;
   width: 5rem;
@@ -422,7 +704,7 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   color: rgba(0,0,0,0);
 }
 
-.c2 {
+.c3 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -431,22 +713,22 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   height: 0;
 }
 
-.c2:checked + .c3 {
+.c3:checked + .c4 {
   background: #dc143c;
 }
 
-.c2:focus + .c3 {
+.c3:focus + .c4 {
   box-shadow: 0 0 1px #dc143c;
 }
 
-.c2:checked + .c3:before {
+.c3:checked + .c4:before {
   -webkit-transform: translateX(1.9rem);
   -ms-transform: translateX(1.9rem);
   transform: translateX(1.9rem);
   background: #000000;
 }
 
-.c4 {
+.c5 {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -460,7 +742,7 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   box-shadow: 0 0 1px #000000;
 }
 
-.c4:before {
+.c5:before {
   content: '';
   position: absolute;
   height: 2.1rem;
@@ -473,12 +755,23 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c15 {
+.c0 svg.search-ok-icon,
+.c0 svg.search-cancel-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-left: 1rem;
+}
+
+.c0 svg.search-cancel-icon {
+  color: #dc143c;
+}
+
+.c16 {
   padding-top: 6.4rem;
   padding-left: 20px;
 }
 
-.c19 {
+.c20 {
   margin: 0 auto;
   margin-bottom: 4.0rem;
   padding: 0 3.2rem;
@@ -498,23 +791,27 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
   justify-content: center;
 }
 
-.c20 {
+.c21 {
   padding: 0.5rem 1.6rem;
 }
 
-.c21 {
+.c21:disabled {
+  outline: 0.1rem solid #dc143c;
+}
+
+.c22 {
   max-width: 120rem;
   width: 100%;
   margin-bottom: 6.4rem;
 }
 
-.c27 {
+.c28 {
   width: 100%;
   margin: 0 auto;
   padding: 0;
 }
 
-.c25 {
+.c26 {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -533,21 +830,28 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
 }
 
 @media (max-width:360px) {
-  .c22 {
+  .c23 {
     grid-template-columns: 1fr;
   }
 }
 
+@media print {
+  .c30 pre[class*='language-'],
+  .c30 code[class*='language-'] {
+    text-shadow: none;
+  }
+}
+
 @media (max-width:768px) {
-  .c29 {
+  .c31 {
     font-size: 2rem;
   }
 
-  .c29 pre {
+  .c31 pre {
     width: 82%;
   }
 
-  .c29 .image-style-side {
+  .c31 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
@@ -555,7 +859,7 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
 }
 
 @media (max-width:768px) {
-  .c16 {
+  .c17 {
     margin: 0;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -564,54 +868,54 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
 }
 
 @media (max-width:768px) {
-  .c17 {
+  .c18 {
     text-align: center;
     margin-top: 1.6rem;
   }
 }
 
 @media (max-width:768px) {
-  .c5 {
+  .c6 {
     width: 25.5rem;
   }
 }
 
 @media (max-width:768px) {
-  .c21 {
+  .c22 {
     width: 100%;
   }
 }
 
 <div>
   <div
-    class=""
+    class="c0"
   >
     <div
-      class="c0"
+      class="c1"
     >
       <label
         aria-label="Toggle light and dark modes"
-        class="c1"
+        class="c2"
       >
         <input
-          class="c2"
+          class="c3"
           type="checkbox"
           value="Toggle light and dark modes"
         />
         <span
-          class="c3 c4"
+          class="c4 c5"
         />
       </label>
     </div>
     <div
-      class="c5"
+      class="c6"
     >
       <div
-        class="c6"
+        class="c7"
       >
         <svg
           aria-label="Open menu"
-          class="c7 menuIcon"
+          class="c8 menuIcon"
           fill="currentColor"
           focusable="false"
           role="img"
@@ -632,13 +936,13 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
       </div>
       <nav
         aria-hidden="true"
-        class="c8"
+        class="c9"
       >
         <h1
-          class="c9 c10"
+          class="c10 c11"
         >
           <a
-            class="c11 c12"
+            class="c12 c13"
             href="/"
             target="_self"
           >
@@ -649,10 +953,10 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
           </a>
         </h1>
         <section
-          class="c13"
+          class="c14"
         >
           <a
-            class="c14"
+            class="c15"
             href="https://pt-br.reactjs.org/docs/hooks-effect.html"
             target="_blank"
           >
@@ -662,16 +966,16 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
       </nav>
     </div>
     <div
-      class="c15"
+      class="c16"
     >
       <header
-        class="c16"
+        class="c17"
       >
         <h1
-          class="c9 c10"
+          class="c10 c11"
         >
           <a
-            class="c11 c12"
+            class="c12 c13"
             href="/"
             target="_self"
           >
@@ -682,10 +986,10 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
           </a>
         </h1>
         <section
-          class="c17"
+          class="c18"
         >
           <h1
-            class="c9 c18"
+            class="c10 c19"
           >
             New Programming
           </h1>
@@ -696,41 +1000,53 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
       </header>
     </div>
     <div
-      class="c19"
+      class="c20"
     >
-      <form
-        action="/search/"
-        method="GET"
+      <input
+        class="c21"
+        name="q"
+        placeholder="Encontre posts"
+        type="search"
+        value=""
+      />
+      <svg
+        aria-hidden="true"
+        aria-label="Input enabled"
+        class="c8 search-ok-icon"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <input
-          class="c20"
-          name="q"
-          placeholder="Encontre posts"
-          type="search"
-          value=""
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
         />
-      </form>
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4 8-8z"
+        />
+      </svg>
     </div>
     <div
-      class="c21"
+      class="c22"
     >
       <main
-        class="c22"
+        class="c23"
       >
         <section
-          class="c23"
+          class="c24"
         >
           <a
             href="/posts/usando-effect-hook-hook-de-efeito"
           >
             <img
               alt="Usando Effect Hook (Hook de Efeito)"
-              class="c24"
+              class="c25"
               src="https://res.cloudinary.com/project-cdn/image/upload/v1643992684/use_Effect_hook_62405844a5.png"
             />
           </a>
           <h2
-            class="c9 c18"
+            class="c10 c19"
           >
             <a
               href="/posts/usando-effect-hook-hook-de-efeito"
@@ -746,39 +1062,43 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
         </section>
       </main>
       <div
-        class="c25"
+        class="c26"
       >
         <button
-          class="c26"
+          class="c27"
         >
           Carregar mais
         </button>
       </div>
     </div>
     <div
-      class="c27"
+      class="c28"
     >
       <footer
-        class="c28"
+        class="c29"
       >
         <div
-          class="c29"
+          class="c30"
         >
-          <p>
-            A footer paragraph
-          </p>
+          <div
+            class="c31"
+          >
+            <p>
+              A footer paragraph
+            </p>
+          </div>
         </div>
       </footer>
     </div>
     <a
       aria-label="Go to top"
-      class="c30"
+      class="c32"
       href="#"
       title="Go to top"
     >
       <svg
         aria-hidden="true"
-        class="c7"
+        class="c8"
         fill="currentColor"
         focusable="false"
         viewBox="0 0 24 24"
@@ -798,21 +1118,21 @@ exports[`<PostTemplate /> Should match snapshot 1`] = `
 `;
 
 exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
-.c10 {
+.c11 {
   line-height: 1.2;
   color: #000000;
   font-size: 2.4rem;
   text-transform: uppercase;
 }
 
-.c18 {
+.c19 {
   line-height: 1.2;
   color: #000000;
   font-size: 2.4rem;
   text-transform: none;
 }
 
-.c22 {
+.c23 {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
@@ -822,39 +1142,321 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   padding: 3.2rem;
 }
 
-.c23 {
-  padding: 3.2rem;
+.c24 {
   text-align: center;
   font-size: 1.6rem;
+  padding: 3.2rem;
 }
 
-.c25 {
+.c26 {
   width: 100%;
   text-align: center;
 }
 
-.c25 a {
+.c26 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1.6rem;
 }
 
-.c26 {
+.c27 pre[class*='language-'],
+.c27 code[class*='language-'] {
+  color: #d4d4d4;
+  font-size: 13px;
+  text-shadow: none;
+  font-family: Menlo,Monaco,Consolas,'Andale Mono','Ubuntu Mono','Courier New',monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+.c27 pre[class*='language-']::selection,
+.c27 code[class*='language-']::selection,
+.c27 pre[class*='language-'] *::selection,
+.c27 code[class*='language-'] *::selection {
+  text-shadow: none;
+  background: #75a7ca;
+}
+
+.c27 pre[class*='language-'] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  background: #1e1e1e;
+}
+
+.c27:not(pre) > code[class*='language-'] {
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
+  color: #db4c69;
+  background: #f9f2f4;
+}
+
+.c27 .namespace {
+  opacity: 0.7;
+}
+
+.c27 .token.doctype .token.doctype-tag {
+  color: #569cd6;
+}
+
+.c27 .token.doctype .token.name {
+  color: #9cdcfe;
+}
+
+.c27 .token.comment,
+.c27 .token.prolog {
+  color: #6a9955;
+}
+
+.c27 .token.punctuation,
+.c27 .language-html .language-css .token.punctuation,
+.c27 .language-html .language-javascript .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c27 .token.property,
+.c27 .token.tag,
+.c27 .token.boolean,
+.c27 .token.number,
+.c27 .token.constant,
+.c27 .token.symbol,
+.c27 .token.inserted,
+.c27 .token.unit {
+  color: #b5cea8;
+}
+
+.c27 .token.selector,
+.c27 .token.attr-name,
+.c27 .token.string,
+.c27 .token.char,
+.c27 .token.builtin,
+.c27 .token.deleted {
+  color: #ce9178;
+}
+
+.c27 .language-css .token.string.url {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c27 .token.operator,
+.c27 .token.entity {
+  color: #d4d4d4;
+}
+
+.c27 .token.operator.arrow {
+  color: #569cd6;
+}
+
+.c27 .token.atrule {
+  color: #ce9178;
+}
+
+.c27 .token.atrule .token.rule {
+  color: #c586c0;
+}
+
+.c27 .token.atrule .token.url {
+  color: #9cdcfe;
+}
+
+.c27 .token.atrule .token.url .token.function {
+  color: #dcdcaa;
+}
+
+.c27 .token.atrule .token.url .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c27 .token.keyword {
+  color: #569cd6;
+}
+
+.c27 .token.keyword.module,
+.c27 .token.keyword.control-flow {
+  color: #c586c0;
+}
+
+.c27 .token.function,
+.c27 .token.function .token.maybe-class-name {
+  color: #dcdcaa;
+}
+
+.c27 .token.regex {
+  color: #d16969;
+}
+
+.c27 .token.important {
+  color: #569cd6;
+}
+
+.c27 .token.italic {
+  font-style: italic;
+}
+
+.c27 .token.constant {
+  color: #9cdcfe;
+}
+
+.c27 .token.class-name,
+.c27 .token.maybe-class-name {
+  color: #4ec9b0;
+}
+
+.c27 .token.console {
+  color: #9cdcfe;
+}
+
+.c27 .token.parameter {
+  color: #9cdcfe;
+}
+
+.c27 .token.interpolation {
+  color: #9cdcfe;
+}
+
+.c27 .token.punctuation.interpolation-punctuation {
+  color: #569cd6;
+}
+
+.c27 .token.boolean {
+  color: #569cd6;
+}
+
+.c27 .token.property,
+.c27 .token.variable,
+.c27 .token.imports .token.maybe-class-name,
+.c27 .token.exports .token.maybe-class-name {
+  color: #9cdcfe;
+}
+
+.c27 .token.selector {
+  color: #d7ba7d;
+}
+
+.c27 .token.escape {
+  color: #d7ba7d;
+}
+
+.c27 .token.tag {
+  color: #569cd6;
+}
+
+.c27 .token.tag .token.punctuation {
+  color: #808080;
+}
+
+.c27 .token.cdata {
+  color: #808080;
+}
+
+.c27 .token.attr-name {
+  color: #9cdcfe;
+}
+
+.c27 .token.attr-value,
+.c27 .token.attr-value .token.punctuation {
+  color: #ce9178;
+}
+
+.c27 .token.attr-value .token.punctuation.attr-equals {
+  color: #d4d4d4;
+}
+
+.c27 .token.entity {
+  color: #569cd6;
+}
+
+.c27 .token.namespace {
+  color: #4ec9b0;
+}
+
+.c27 pre[class*='language-javascript'],
+.c27 code[class*='language-javascript'],
+.c27 pre[class*='language-jsx'],
+.c27 code[class*='language-jsx'],
+.c27 pre[class*='language-typescript'],
+.c27 code[class*='language-typescript'],
+.c27 pre[class*='language-tsx'],
+.c27 code[class*='language-tsx'] {
+  color: #9cdcfe;
+}
+
+.c27 pre[class*='language-css'],
+.c27 code[class*='language-css'] {
+  color: #ce9178;
+}
+
+.c27 pre[class*='language-html'],
+.c27 code[class*='language-html'] {
+  color: #d4d4d4;
+}
+
+.c27 .language-regex .token.anchor {
+  color: #dcdcaa;
+}
+
+.c27 .language-html .token.punctuation {
+  color: #808080;
+}
+
+.c27 pre[data-line] {
+  position: relative;
+}
+
+.c27 pre[class*='language-'] > code[class*='language-'] {
+  position: relative;
+  z-index: 1;
+}
+
+.c27 .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: #f7ebc6;
+  box-shadow: inset 5px 0 0 #f7d87c;
+  z-index: 0;
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+.c28 {
   width: 100%;
   font-size: calc(1.6rem + 0.2rem);
   line-height: 1.5;
 }
 
-.c26 p {
+.c28 iframe[src*='ads'] {
+  display: none;
+}
+
+.c28 p {
   width: 100%;
   margin: 2.4rem 0;
   word-wrap: break-word;
 }
 
-.c26 a,
-.c26 a:visited,
-.c26 a:link {
+.c28 a,
+.c28 a:visited,
+.c28 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -862,12 +1464,12 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c26 a:hover {
+.c28 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c26 code {
+.c28 code {
   font-family: monospace;
   color: #dc143c;
   font-size: 1.6rem;
@@ -876,7 +1478,7 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   margin: 0.2rem;
 }
 
-.c26 pre {
+.c28 pre {
   background: #000000;
   padding: 2.4rem;
   font-family: monospace;
@@ -886,22 +1488,22 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   font-size: 1.6rem;
 }
 
-.c26 pre code {
+.c28 pre code {
   color: inherit;
   background: inherit;
 }
 
-.c26 img {
+.c28 img {
   max-width: 100%;
 }
 
-.c26 .image {
+.c28 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c26 .image figcaption {
+.c28 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem 0;
   text-align: center;
@@ -909,41 +1511,41 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   margin: 2.4rem 0;
 }
 
-.c26 .image-style-side {
+.c28 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem;
 }
 
-.c26 hr {
+.c28 hr {
   border: none;
   border: 1px solid red;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c26 ul,
-.c26 ol {
+.c28 ul,
+.c28 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c26 .table {
+.c28 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c26 table {
+.c28 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.c26 table td,
-.c26 table th {
+.c28 table td,
+.c28 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c26 blockquote {
+.c28 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -953,13 +1555,13 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   margin: 2.4rem;
 }
 
-.c7 {
+.c8 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
 }
 
-.c27 {
+.c29 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -982,7 +1584,7 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   z-index: 6;
 }
 
-.c12 {
+.c13 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -996,13 +1598,13 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   color: inherit;
 }
 
-.c12 > img {
+.c13 > img {
   width: 15rem;
   height: 15rem;
   border-radius: 50%;
 }
 
-.c16 {
+.c17 {
   max-width: 96rem;
   width: 100%;
   display: -webkit-box;
@@ -1024,11 +1626,11 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   margin: 0 auto;
 }
 
-.c16 .c9 {
+.c17 .c10 {
   margin-right: calc(1.6rem - 1rem);
 }
 
-.c17 {
+.c18 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1039,7 +1641,7 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   margin-left: 2.4rem;
 }
 
-.c14 {
+.c15 {
   display: block;
   color: #FFFFFF;
   -webkit-text-decoration: none;
@@ -1052,12 +1654,12 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   cursor: pointer;
 }
 
-.c14:hover {
+.c15:hover {
   border-right: 0.5rem solid #dc143c;
   color: #dc143c;
 }
 
-.c5 {
+.c6 {
   width: 27rem;
   height: 100%;
   background: #000000;
@@ -1070,21 +1672,21 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   z-index: 1001;
 }
 
-.c5 .c11 {
+.c6 .c12 {
   margin-top: 6.4rem;
 }
 
-.c5 .c11 img {
+.c6 .c12 img {
   border: 0.5rem solid #dc143c;
 }
 
-.c5.active {
+.c6.active {
   left: 0rem;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-.c8 {
+.c9 {
   width: 100%;
   max-width: 100%;
   display: -webkit-box;
@@ -1100,7 +1702,7 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   align-items: center;
 }
 
-.c6 {
+.c7 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1115,7 +1717,7 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   left: 2rem;
 }
 
-.c6 svg {
+.c7 svg {
   width: 3rem;
   color: #FFFFFF;
   padding-right: 3.5rem;
@@ -1125,28 +1727,28 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   transition: filter 300ms ease-in-out;
 }
 
-.c6 svg:hover {
+.c7 svg:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c6 .menuIcon {
+.c7 .menuIcon {
   padding: 0;
 }
 
-.c13 {
+.c14 {
   width: 90%;
   margin: 4rem 0;
 }
 
-.c0 {
+.c1 {
   position: fixed;
   top: 2rem;
   right: 2rem;
   z-index: 2;
 }
 
-.c1 {
+.c2 {
   position: relative;
   display: inline-block;
   width: 5rem;
@@ -1157,7 +1759,7 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   color: rgba(0,0,0,0);
 }
 
-.c2 {
+.c3 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -1166,22 +1768,22 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   height: 0;
 }
 
-.c2:checked + .c3 {
+.c3:checked + .c4 {
   background: #dc143c;
 }
 
-.c2:focus + .c3 {
+.c3:focus + .c4 {
   box-shadow: 0 0 1px #dc143c;
 }
 
-.c2:checked + .c3:before {
+.c3:checked + .c4:before {
   -webkit-transform: translateX(1.9rem);
   -ms-transform: translateX(1.9rem);
   transform: translateX(1.9rem);
   background: #000000;
 }
 
-.c4 {
+.c5 {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -1195,7 +1797,7 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   box-shadow: 0 0 1px #000000;
 }
 
-.c4:before {
+.c5:before {
   content: '';
   position: absolute;
   height: 2.1rem;
@@ -1208,12 +1810,23 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c15 {
+.c0 svg.search-ok-icon,
+.c0 svg.search-cancel-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-left: 1rem;
+}
+
+.c0 svg.search-cancel-icon {
+  color: #dc143c;
+}
+
+.c16 {
   padding-top: 6.4rem;
   padding-left: 20px;
 }
 
-.c19 {
+.c20 {
   margin: 0 auto;
   margin-bottom: 4.0rem;
   padding: 0 3.2rem;
@@ -1233,38 +1846,55 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
   justify-content: center;
 }
 
-.c20 {
+.c21 {
   padding: 0.5rem 1.6rem;
 }
 
-.c21 {
+.c21:disabled {
+  outline: 0.1rem solid #dc143c;
+}
+
+.c22 {
   max-width: 120rem;
   width: 100%;
   margin-bottom: 6.4rem;
 }
 
-.c24 {
+.c25 {
   width: 100%;
   margin: 0 auto;
   padding: 0;
 }
 
 @media (max-width:360px) {
-  .c22 {
+  .c23 {
     grid-template-columns: 1fr;
   }
 }
 
+@media (max-width:360px) {
+  .c24 {
+    padding: 0;
+  }
+}
+
+@media print {
+  .c27 pre[class*='language-'],
+  .c27 code[class*='language-'] {
+    text-shadow: none;
+  }
+}
+
 @media (max-width:768px) {
-  .c26 {
+  .c28 {
     font-size: 2rem;
   }
 
-  .c26 pre {
+  .c28 pre {
     width: 82%;
   }
 
-  .c26 .image-style-side {
+  .c28 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
@@ -1272,7 +1902,7 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
 }
 
 @media (max-width:768px) {
-  .c16 {
+  .c17 {
     margin: 0;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -1281,54 +1911,54 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
 }
 
 @media (max-width:768px) {
-  .c17 {
+  .c18 {
     text-align: center;
     margin-top: 1.6rem;
   }
 }
 
 @media (max-width:768px) {
-  .c5 {
+  .c6 {
     width: 25.5rem;
   }
 }
 
 @media (max-width:768px) {
-  .c21 {
+  .c22 {
     width: 100%;
   }
 }
 
 <div>
   <div
-    class=""
+    class="c0"
   >
     <div
-      class="c0"
+      class="c1"
     >
       <label
         aria-label="Toggle light and dark modes"
-        class="c1"
+        class="c2"
       >
         <input
-          class="c2"
+          class="c3"
           type="checkbox"
           value="Toggle light and dark modes"
         />
         <span
-          class="c3 c4"
+          class="c4 c5"
         />
       </label>
     </div>
     <div
-      class="c5"
+      class="c6"
     >
       <div
-        class="c6"
+        class="c7"
       >
         <svg
           aria-label="Open menu"
-          class="c7 menuIcon"
+          class="c8 menuIcon"
           fill="currentColor"
           focusable="false"
           role="img"
@@ -1349,13 +1979,13 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
       </div>
       <nav
         aria-hidden="true"
-        class="c8"
+        class="c9"
       >
         <h1
-          class="c9 c10"
+          class="c10 c11"
         >
           <a
-            class="c11 c12"
+            class="c12 c13"
             href="/"
             target="_self"
           >
@@ -1366,10 +1996,10 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
           </a>
         </h1>
         <section
-          class="c13"
+          class="c14"
         >
           <a
-            class="c14"
+            class="c15"
             href="https://pt-br.reactjs.org/docs/hooks-effect.html"
             target="_blank"
           >
@@ -1379,16 +2009,16 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
       </nav>
     </div>
     <div
-      class="c15"
+      class="c16"
     >
       <header
-        class="c16"
+        class="c17"
       >
         <h1
-          class="c9 c10"
+          class="c10 c11"
         >
           <a
-            class="c11 c12"
+            class="c12 c13"
             href="/"
             target="_self"
           >
@@ -1399,10 +2029,10 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
           </a>
         </h1>
         <section
-          class="c17"
+          class="c18"
         >
           <h1
-            class="c9 c18"
+            class="c10 c19"
           >
             New Programming
           </h1>
@@ -1413,58 +2043,74 @@ exports[`<PostTemplate /> Should match snapshot without posts 1`] = `
       </header>
     </div>
     <div
-      class="c19"
+      class="c20"
     >
-      <form
-        action="/search/"
-        method="GET"
+      <input
+        class="c21"
+        name="q"
+        placeholder="Encontre posts"
+        type="search"
+        value=""
+      />
+      <svg
+        aria-hidden="true"
+        aria-label="Input enabled"
+        class="c8 search-ok-icon"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <input
-          class="c20"
-          name="q"
-          placeholder="Encontre posts"
-          type="search"
-          value=""
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
         />
-      </form>
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4 8-8z"
+        />
+      </svg>
     </div>
     <div
-      class="c21"
+      class="c22"
     >
       <main
-        class="c22"
+        class="c23"
       >
         <p
-          class="c23"
+          class="c24"
         >
           Nenhum post encontrado aqui =(
         </p>
       </main>
     </div>
     <div
-      class="c24"
+      class="c25"
     >
       <footer
-        class="c25"
+        class="c26"
       >
         <div
-          class="c26"
+          class="c27"
         >
-          <p>
-            A footer paragraph
-          </p>
+          <div
+            class="c28"
+          >
+            <p>
+              A footer paragraph
+            </p>
+          </div>
         </div>
       </footer>
     </div>
     <a
       aria-label="Go to top"
-      class="c27"
+      class="c29"
       href="#"
       title="Go to top"
     >
       <svg
         aria-hidden="true"
-        class="c7"
+        class="c8"
         fill="currentColor"
         focusable="false"
         viewBox="0 0 24 24"
